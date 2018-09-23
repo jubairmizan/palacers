@@ -1,0 +1,812 @@
+/* ----------------------------------------------------------------
+Custom CSS
+
+Add all your Custom Styled CSS here for New Styles or
+Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+/* Global CSS */
+a {
+	color: #555
+}
+
+a:hover{
+	color: #216832 ;
+}
+
+p,
+pre,
+ul,
+ol,
+dl,
+dd,
+blockquote,
+address,
+table,
+fieldset,
+form { 
+
+	margin-top: 15px;
+	margin-bottom: 30px; 
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+
+
+h2 {
+
+	font-family: 'Muli'; 
+}
+
+
+
+/*Pagination starts*/
+
+
+
+/*Pagination ends*/
+
+
+
+/************************* Starting of Header Section *************************/
+
+#primary-menu ul ul li a .primary-menu-ul-li-a-div {
+
+	text-transform: none;
+
+}
+
+
+#header-wrap {
+	background-image: url(../images/custom-images/section/sister-concern/header-background.png);
+}
+
+#home-icon{
+
+	width: 16px;
+	height: 16px;
+	margin-top: -7%;
+}
+
+
+#header.sticky-header #header-wrap {
+
+	background-color: #333333;
+
+}
+
+
+#primary-menu ul ul li:hover > a {
+
+	background-color: #444;
+
+}
+
+
+#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+
+	background-color: #444;
+
+	border: 1px solid #333333;
+	border-top: 1.5px solid #66912e;
+
+}
+
+
+.primary-menu-ul-li-a-div{
+
+	font-family: 'Muli';
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+
+}
+
+.primary-menu-ul-li-a-div:hover{
+
+	color: #66912e;
+
+}
+
+
+
+.dark #primary-menu:not(.not-dark) ul ul, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content, #primary-menu.dark ul ul, #primary-menu.dark ul li .mega-menu-content {
+
+	border-top-color: #66912e; 
+}
+
+
+
+
+
+/************************* Ending of Header Section *************************/
+
+
+/*Starting of body */
+
+.custom-loader{
+/*	width: 480px;
+height: 270px;*/
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+/*Ending of body */
+
+
+
+
+/********************** Starting of palace-gallery *****************/	
+.slider-element .custom-slider-container {
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,-50%);
+}
+
+.heading-block.palace-first-slider-custom-heading-block{
+	position: absolute;
+	margin:0; 
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,-50%);
+}
+
+.heading-block .palace-first-slider-h2{
+
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	/*color: #77b12c;*/
+	color: white;
+	margin-bottom: 30px;
+
+
+}
+
+.heading-block .palace-first-slider-h2{
+
+
+	margin-bottom: 30px;
+	margin-top: 25%;
+
+}
+
+
+#postcontent{
+	display: block;
+	position: relative;
+	/* margin-right: 4%; */
+	margin-bottom: 50px;
+	float: none; 
+	left: 50%;
+	top: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,0%);
+}
+
+
+.postcontent .post-timeline .entry-timeline {
+	display: block;
+	border: 3px solid #77b12c;
+	background-color: #FFF;
+	padding-top: 12px;
+	text-indent: 0;
+	top: 20px;
+	left: -100px;
+	right: auto;
+	width: 64px;
+	height: 64px;
+	font-size: 18px;
+}
+
+
+.post-timeline .entry-timeline {
+	display: none;
+	position: absolute;
+	border: 2px solid #77b12c;
+	background-color: #FFF;
+	padding-top: 0;
+	text-indent: -9999px;
+	top: 40px;
+	left: auto;
+	right: -76px;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	font-size: 26px;
+	font-weight: bold;
+	color: #77b12c;
+	text-align: center;
+	line-height: 1;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+
+.post-timeline .entry-timeline span {
+	display: block;
+	margin-top: 3px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #77b12c;
+}
+
+
+.post-timeline .entry-timeline:hover span {
+
+	color: #4c9922;
+}
+
+.post-timeline .entry:hover .entry-timeline, .post-timeline .entry:hover .timeline-divider {
+	border-color: #4c9922;
+	color: #4c9922;
+}
+
+
+.entry-title h2 a {
+	color: #333;
+	font-family: 'Muli';
+
+}
+
+
+
+
+
+/********************** Ending of Palace-gallery *****************/
+
+
+
+
+
+
+/********************** Starting of Palace-Footer *****************/
+
+#palace-power-by {
+	font-size: 14px;
+}
+
+#power-by-company-name-in-footer{
+	font-size: 13px;
+}
+
+#palace-footer-logo-col{
+	margin-top: 18px;
+}
+
+
+#palace-footer-social-icons{
+	margin-top: 38px;
+	margin-bottom: 30px;
+}
+
+.dark #copyrights {
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	margin-top: 0px;
+}
+
+.social-icon{
+	margin-left: 15px;
+}
+.si-colored i {
+	color: #090a04;
+}
+
+.si-colored i:hover {
+	color: white;
+}
+
+
+
+.si-colored.si-facebook {
+	background-color: #4c9922;
+
+}
+
+.si-colored.si-facebook:hover {
+	background-color: #3B5998;
+
+}
+
+
+.si-colored.si-youtube {
+	background-color: #4c9922;
+}
+
+
+.si-colored.si-youtube:hover {
+	background-color: #C4302B;
+}
+
+
+.si-colored.si-linkedin {
+	background-color: #4c9922;
+}
+
+
+.si-colored.si-linkedin:hover {
+	background-color: #0E76A8;
+}
+
+
+#gotoTop:hover{
+
+	background-color: #61ae28;
+
+}
+
+#power-by-company-name-in-footer{
+	color: grey;
+}
+
+#power-by-company-name-in-footer:hover{
+	color: #4c9922;
+}
+
+
+.col_one_third.palace-footer-power-by-col{
+	margin-bottom: 0px; 
+	margin-top: 90px;
+	left: 2%;
+	text-align: center;
+}
+
+.col_one_third.palace-footer-logo-col{
+	margin-bottom: 30px;
+
+}
+
+.col_one_third.palace-footer-social-icons-col{
+	margin-bottom: 30px;
+}
+
+#copyrights{
+
+	padding:0 ;
+
+}
+
+
+/********************** Ending of Palace-Footer *****************/
+
+
+
+
+
+/***************************** End Of Global Css ***************************************/
+
+
+
+@media (min-width: 1800px){
+
+
+	/********************** Starting of palace-Contact  *****************/	
+
+	.heading-block.palace-contact-custom-heading-block{
+		margin-bottom: 50px
+	}
+
+	.heading-block:after{
+
+		display: none;
+
+	}
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 25%;
+
+	}
+
+
+	.heading-block  .palace-contact-span:not(.before-heading) {
+
+		width: 1200px;
+		line-height: 2;
+		letter-spacing: 1.2px;
+	}
+
+	/********************** Ending of palace-Contact  *****************/
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1799px){
+
+
+
+	/********************** Starting of palace-Contact  *****************/	
+
+
+	.heading-block.palace-contact-custom-heading-block{
+		margin-bottom: 50px
+	}
+
+	.heading-block:after{
+
+		display: none;
+
+	}
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 25%;
+
+	}
+
+
+
+
+	/********************** Ending of palace-Contact  *****************/
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+	/********************** Starting of palace-Contact  *****************/	
+
+
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 25%;
+
+	}
+
+
+
+
+	/********************** Ending of palace-Contact  *****************/
+
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -0.95%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+
+	/********************** Starting of palace-Contact  *****************/	
+
+
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 25%;
+
+	}
+
+
+
+
+	/********************** Ending of palace-Contact  *****************/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) and (min-width: 481px) {
+
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -1.5%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+	/*External*/
+	.heading-block .palace-first-slider-h2 {
+
+		font-size: 22px;
+	}
+
+	/****************** Starting of palace-Contact-Us Section *******************************/
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 25%;
+
+	}
+
+
+
+	#palace-contact-header {
+		font-size: 25px;
+		margin-bottom: -25px;
+	}
+	/****************** ending of palace-Contact-Us Section *******************************/
+
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 315px;
+	}
+
+	#copyrights {
+		height: 315px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+}
+
+
+
+
+@media (max-width: 480px) and (min-width: 322px){
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -2%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+	/*External*/
+	.heading-block .palace-first-slider-h2 {
+
+		font-size: 22px;
+	}
+
+	/****************** Starting of palace-Contact-Us Section *******************************/
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 60%;
+
+	}
+
+
+	#palace-contact-header {
+		font-size: 18px;
+		margin-bottom: -25px;
+	}
+	/****************** ending of palace-Contact-Us Section *******************************/
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 315px;
+	}
+
+	#copyrights {
+		height: 315px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+}
+
+
+
+
+@media (max-width: 321px){
+
+
+	/*************** Palace-Header Section Starts ***************/
+
+	#home-icon {
+		margin-top: -2.95%;
+	}
+
+
+	/*************** Palace-Header Section Starts ***************/
+
+
+	/*External*/
+	.heading-block .palace-first-slider-h2 {
+
+		font-size: 22px;
+	}
+
+
+	/****************** Starting of palace-Contact-Us Section *******************************/
+
+	.heading-block .palace-contact-h2{
+
+
+		margin-bottom: 30px;
+		margin-top: 70%;
+
+	}
+
+
+	#palace-contact-header {
+		font-size: 25px;
+		margin-bottom: -25px;
+	}
+
+
+	/****************** ending of palace-Contact-Us Section *******************************/
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 315px;
+	}
+
+	#copyrights {
+		height: 315px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

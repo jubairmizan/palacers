@@ -1,0 +1,3341 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+	-----------------------------------------------------------------*/
+
+	/* Global CSS */
+	
+	
+		.mfp-iframe-holder .mfp-content {
+			line-height: 0;
+			width: 100%;
+			max-width: 960px;
+		}
+	
+
+	#custom-our-project-play-button{
+
+		height: 60px;
+		width: 60px;
+
+	}
+
+	/**************************** Starting of our projects  Hover Effects section portion **********************************/
+
+	.grid {
+		position: relative;
+		clear: both;
+		margin: 0 auto;
+		padding: 1em 0 4em;
+		max-width: 1000px;
+		list-style: none;
+		text-align: center;
+	}
+
+	/* Common style */
+	.grid figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 320px;
+		max-width: 480px;
+		max-height: 360px;
+		width: 48%;
+		height: auto;
+		background: #2f3238;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	.grid figure #palace-residence-background-img {
+		position: relative;
+		display: block;
+		min-height: 100%;
+		max-width: 100%;
+		opacity: 0.8;
+	}
+
+	.grid figure #palace-about-us-background-img {
+		position: relative;
+		display: block;
+		min-height: 100%;
+		max-width: 100%;
+		opacity: 0.8;
+	}
+
+	.grid figure figcaption {
+		padding: 2em;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 1.25em;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.grid figure figcaption::before,
+	.grid figure figcaption::after {
+		pointer-events: none;
+	}
+
+	.grid figure figcaption,
+	.grid figure figcaption > a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Anchor will cover the whole item by default */
+	/* For some effects it will show as a button */
+	.grid figure figcaption > a {
+		z-index: 1000;
+		text-indent: 200%;
+		white-space: nowrap;
+		font-size: 0;
+		opacity: 0;
+	}
+
+	.grid figure h2 {
+		word-spacing: -0.15em;
+		font-weight: 300;
+	}
+
+	.grid figure h2 span {
+		font-weight: 800;
+	}
+
+	.grid figure h2,
+	.grid figure p {
+		margin: 0;
+	}
+
+	.grid figure p {
+		letter-spacing: 1px;
+		font-size: 68.5%;
+	}
+
+	/* Individual effects */
+
+	/*---------------*/
+	/***** Julia *****/
+	/*---------------*/
+
+	figure.effect-julia {
+		background: #2f3238;
+	}
+
+	figure.effect-julia img {
+		max-width: none;
+		height: 400px;
+		-webkit-transition: opacity 1s, -webkit-transform 1s;
+		transition: opacity 1s, transform 1s;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	figure.effect-julia figcaption {
+		text-align: left;
+	}
+
+	figure.effect-julia h2 {
+		position: relative;
+		padding: 0.5em 0;
+	}
+
+	figure.effect-julia p {
+		display: inline-block;
+		margin: 0 0 0.25em;
+		padding: 0.4em 1em;
+		background: rgba(255,255,255,0.9);
+		color: #2f3238;
+		text-transform: none;
+		font-weight: 500;
+		font-size: 75%;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(-360px,0,0);
+		transform: translate3d(-360px,0,0);
+	}
+
+	figure.effect-julia p:first-child {
+		-webkit-transition-delay: 0.15s;
+		transition-delay: 0.15s;
+	}
+
+	figure.effect-julia p:nth-of-type(2) {
+		-webkit-transition-delay: 0.1s;
+		transition-delay: 0.1s;
+	}
+
+	figure.effect-julia p:nth-of-type(3) {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+	figure.effect-julia:hover p:first-child {
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+	}
+
+	figure.effect-julia:hover p:nth-of-type(2) {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+	figure.effect-julia:hover p:nth-of-type(3) {
+		-webkit-transition-delay: 0.1s;
+		transition-delay: 0.1s;
+	}
+
+	figure.effect-julia:hover img {
+		opacity: 0.4;
+		-webkit-transform: scale3d(1.5,1.5,1);
+		transform: scale3d(1.5,1.5,1);
+	}
+
+	figure.effect-julia:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	/********************* End of Julia ********************************/
+
+
+	/*---------------*/
+	/***** Lily *****/
+	/*---------------*/
+
+	figure.effect-lily #palace-residence-background-img {
+		max-width: none;
+		height: 400px;
+		-webkit-transition: opacity 1s, -webkit-transform 1s;
+		transition: opacity 1s, transform 1s;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	figure.effect-lily #palace-about-us-background-img {
+		max-width: none;
+		height: 400px;
+		-webkit-transition: opacity 1s, -webkit-transform 1s;
+		transition: opacity 1s, transform 1s;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+
+	figure.effect-lily figcaption {
+		text-align: left;
+	}
+
+	figure.effect-lily figcaption > div {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 2em;
+		width: 100%;
+		height: 50%;
+	}
+
+	figure.effect-lily h2,
+	figure.effect-lily p {
+		-webkit-transform: translate3d(0,40px,0);
+		transform: translate3d(0,40px,0);
+	}
+
+	figure.effect-lily h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+	}
+
+	figure.effect-lily p {
+		color: rgba(255,255,255,0.8);
+		opacity: 0;
+		-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+		transition: opacity 0.2s, transform 0.35s;
+	}
+
+	figure.effect-lily:hover #palace-residence-background-img,
+	figure.effect-lily:hover p {
+		opacity: 1;
+	}
+
+	figure.effect-lily:hover #palace-about-us-background-img,
+	figure.effect-lily:hover p {
+		opacity: 1;
+	}
+
+	figure.effect-lily:hover h2,
+	figure.effect-lily:hover p {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	figure.effect-lily:hover #palace-residence-background-img {
+		opacity: 0.4;
+		-webkit-transform: scale3d(1.5,1.5,1);
+		transform: scale3d(1.5,1.5,1);
+	}
+
+	figure.effect-lily:hover #palace-about-us-background-img {
+		opacity: 0.4;
+		-webkit-transform: scale3d(1.5,1.5,1);
+		transform: scale3d(1.5,1.5,1);
+	}
+
+	figure.effect-lily:hover p {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+		-webkit-transition-duration: 0.35s;
+		transition-duration: 0.35s;
+	}
+
+	/*---------------*/
+
+
+	/* Media queries */
+	@media screen and (max-width: 50em) {
+		.grid figure {
+			position: relative;
+			display: inline-block;
+			float: left;
+			/*margin: 0 -10px;*/
+			width: 100%;
+		}
+	}
+
+
+	/*************** Ending of our projects  Hover Effects section portion ******************************/
+
+
+
+
+
+
+	/************************* Starting of Header Section *************************/
+
+
+	#primary-menu ul ul li a .primary-menu-ul-li-a-div {
+
+		text-transform: none;
+
+	}
+
+
+	#home-icon{
+
+		width: 16px;
+		height: 16px;
+		margin-top: -7%;
+	}
+
+
+	#header.sticky-header #header-wrap {
+
+		background-color: #333333;
+
+	}
+
+
+	#primary-menu ul ul li:hover > a {
+
+		background-color: #444;
+
+	}
+
+
+	#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+
+		background-color: #444;
+
+		border: 1px solid #333333;
+		border-top: 1.5px solid #66912e;
+
+	}
+
+
+	.primary-menu-ul-li-a-div{
+
+		font-family: 'Muli';
+		font-weight: 300;
+		font-size: 16px;
+		color: white;
+
+	}
+
+	.primary-menu-ul-li-a-div:hover{
+
+		color: #66912e;
+
+	}
+
+
+
+	.dark #primary-menu:not(.not-dark) ul ul, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content, #primary-menu.dark ul ul, #primary-menu.dark ul li .mega-menu-content {
+
+		border-top-color: #66912e; 
+	}
+
+
+
+
+
+	/************************* Ending of Header Section *************************/
+
+
+	/*Starting of body */
+
+	.custom-loader{
+/*		width: 480px;
+height: 270px;*/
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+/*Ending of body */
+
+
+
+
+
+
+
+
+/*********** Starting of Palace-welcome-slide *********/
+
+#custom-slider-caption-for-welcome-slider{
+
+	margin-top: 15%;
+	max-width: 1200px;
+
+}
+
+
+.slider-caption-center > h2{
+
+	font-family: 'Muli';
+	font-weight: 700;
+	font-size: 45px;
+
+}
+
+.slider-caption-center > p{
+
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16px;
+	color: #8ccf35;
+	margin-bottom: 60px;
+
+}
+
+
+
+
+
+
+#welcome-slider-heading-block {
+	margin-bottom: -26px;
+	/*margin-top: -70px;*/
+}
+
+
+#welcome-slider-heading-block #welcome-slider-h2-01 {
+	font-weight: 400;
+	font-family: 'Montserrat';
+	font-size: 42px;
+	color: #61ae28;
+	margin-bottom: 0px;
+	line-height: 160px;
+}
+
+
+#welcome-slider-heading-block .welcome-slider-h2-02 {
+	font-weight: 300;
+	font-family: 'Montserrat';
+	font-size: 21px;
+	color: #fff;
+	text-transform: none;
+	/*font-style: italic;*/
+	text-decoration: none;
+	margin-bottom: 40px;
+}
+
+
+/********************** Ending of Palace-welcome-slider *****************/
+
+
+
+
+
+/********************* Starting of our projects circular video/photo column portion ************************/
+
+#portfolio{
+
+	left: 20px;
+}
+
+
+
+.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
+	width: 295px;
+	height: 295px;
+	border-radius: 150px;
+	/*background-color: black;*/
+}
+
+
+
+
+.portfolio-overlay {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+}
+
+
+
+.portfolio-overlay a{
+
+	width: 60px ;
+	height: 60px ;
+	top: 45%;
+	left: 48%;
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+
+.portfolio-overlay a:hover{
+	width: 60px ;
+	height: 60px ;
+	top: 45%;
+	left: 48%;
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+
+
+
+.fslider, .fslider .flexslider, .fslider .slider-wrap, .fslider .slide, .fslider .slide > a, .fslider .slide > img, .fslider .slide > a > img {
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 300px;
+	overflow: visible;
+	-webkit-backface-visibility: hidden;
+}
+
+.portfolio-overlay a i.icon-line-play {
+	position: relative;
+	left: 6px;
+	top: 8px;
+	color: white;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.portfolio-item:hover a.center-icon, .iportfolio:hover a.center-icon {
+	width: 60px;
+	height: 60px;
+	top: 45%;
+	left: 48%;
+}
+
+.portfolio-item a.center-icon, .iportfolio a.center-icon {
+
+	position: absolute;
+	z-index: 100;
+	width: 60px;
+	height: 60px;
+	margin: -20px 0 0 -20px;
+	top: 45%;
+	left: 48%;
+	background: transparent;
+	font-size:45px;
+	color: white;
+	border: none;
+
+}
+
+#custom-portfolio-play-icon{
+	position: absolute;
+	top: 55%;
+	left: 48%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+
+#video-try {
+
+	width: 571px;
+	height: 350px;
+	overflow: hidden;
+	margin-top: -9%;
+	margin-left: -44%;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+
+}
+
+
+
+/********************* Ending of our projects circular video/photo column portion **************************/
+
+
+
+
+/******************************* Starting of our projects  description column portion ******************************/
+
+
+
+
+.hr-to-vertical{
+
+	width: 3px;
+	height: 240px;
+	background-color: #90d13b;
+	float: left;
+	margin-top: 40%;
+
+}
+
+
+
+.our-project-holding-column{
+
+	padding-top: 20px;
+	padding-left: 0px;
+	right:8px;
+	height: 250px;
+	text-align: justify;
+
+}
+
+
+.our-projects-h2{
+
+	margin-bottom: 5px;
+	color: #585958;
+	font-family: 'Muli';
+	font-weight: 700;
+	font-size: 45px;
+
+}
+
+
+.our-projects-p{
+
+	margin-bottom: 20px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+	margin-left: 2px;
+
+}
+
+
+
+.our-projects-content-wrap {
+	padding-top: 115px;
+	padding-bottom: 115px;
+}
+
+#our-project-button {
+	left: -2px;
+}
+
+/***************************** ending of our projects  description column portion ************************************/
+
+
+
+
+
+
+/********************** Starting of Palace Residence Section ****************************/
+
+
+
+
+#palace-residence-grid{
+	
+	margin: 0 ;
+	padding: 0;
+
+}
+
+
+#palace-residence-grid figure{
+	
+	margin: 0 ;
+
+	
+}
+
+figure.palace-residence-effect-lily figcaption {
+	text-align: center;
+}
+
+
+figure.palace-residence-effect-lily h2 {
+
+	font-family: 'Muli';
+	font-size: 45px;
+	font-weight: 700;
+
+}
+
+
+figure.palace-residence-effect-lily p {
+
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 32px !important;
+	text-transform: none;
+
+}
+
+
+#palace-residence-logo-01{
+
+	width: 185px; 
+	height:80px; 
+	opacity: 1;
+
+}
+
+
+
+
+
+#palace-residence-logo-02{
+
+	width: 185px; 
+	height:80px; 
+	opacity: 1;
+
+}
+
+/****************** ending of Palace Residence Section *******************************/
+
+
+
+
+
+
+
+/*************** Starting of palace luxury resort ****************************************************/
+
+.heading-block:after {
+	content: '';
+	display: block;
+	margin-top: 30px;
+	width: 0px;
+	border: none;
+}
+
+.heading-block .palace-luxury-resort-h2{
+
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: #585958;
+	margin-bottom: 30px;
+
+}
+
+
+.heading-block.center > span, .heading-block.title-center > span, .center .heading-block > span {
+	max-width: 800px;
+
+}
+
+
+.heading-block > span:not(.before-heading){
+
+	font-weight: 300;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	color: #111111;
+	margin-bottom: 30px;
+	line-height: 32px;
+	width: 800px;
+
+}
+
+#palace-luxury-resort-i-overlay, #palace-luxury-resort-i-overlay a {
+
+	background: transparent;
+}
+
+
+#palace-luxury-resort-i-overlay img, #palace-luxury-resort-i-overlay i {
+
+	width: 80px ;
+	height: 80px ;
+	margin: 0;
+	transform: translate(-50%, -50%);
+
+}
+
+
+.palace-luxury-resort-poster-img-for-video{
+
+	min-height: 300px;
+	min-width: 300px;
+	width: 970px;
+	/* height: 450px; */
+
+}
+
+
+
+
+
+/************************************* Ending of Palace Luxury Resort **********************************/
+
+
+
+
+
+
+/*********** Starting of Palace-meet-our-team *********/
+
+
+
+#meet-our-team-heading-block {
+	margin-bottom: -26px;
+	/*margin-top: -70px;*/
+}
+
+
+#meet-our-team-heading-block #meet-our-team-h2-01 {
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: #61ae28;
+	margin-bottom: 0px;
+}
+
+
+#meet-our-team-heading-block .meet-our-team-h2-02 {
+	font-weight: 600;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+
+/********************** Ending of Palace-meet-our-team *****************/
+
+
+
+
+
+/*********** Starting of Palace-Why-Us *********/
+
+.heading-block .palace-why-us-h2{
+
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: #585958;
+	margin-bottom: 30px;
+
+}
+
+
+/********************** Ending of Palace-Why-Us *****************/
+
+
+
+
+
+
+
+/********************** Starting of Palace-about-us *****************/
+
+
+
+#palace-about-us-grid{
+	
+	margin: 0 ;
+	padding: 0;
+
+}
+
+
+#palace-about-us-grid figure{
+	
+	margin: 0 ;
+
+	
+}
+
+figure.palace-residence-effect-lily figcaption {
+	text-align: center;
+}
+
+
+figure.palace-about-us-effect-lily h2 {
+
+	font-family: 'Muli';
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	text-transform: none;
+	letter-spacing: 1px;
+
+}
+
+
+figure.palace-about-us-effect-lily p {
+
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: none;
+
+
+}
+
+
+#palace-about-us-logo-01{
+
+	width: 640px; 
+	opacity: 1;
+
+}
+
+
+
+
+
+
+
+/********************** Endinging of Palace-about-us *****************/
+
+
+
+
+
+
+
+
+
+/************************************** Starting of Palace-Contact-us Section ***************************************/
+#palace-contact-header{
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: #585958;
+	margin-bottom: 30px;
+}
+
+
+#address-text {
+
+	font-weight: 300;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	/*text-align: center;*/
+	color: #111111;
+	margin-bottom: 30px;
+	/*width: 800px;*/
+	line-height: 1.7;
+
+}
+/****************************** Ending of Palace-Contact-us Section *********************************/
+
+
+
+
+
+
+
+/********************** Starting of Palace-Footer *****************/
+
+#palace-power-by {
+	font-size: 14px;
+}
+
+#power-by-company-name-in-footer{
+	font-size: 13px;
+}
+
+#palace-footer-logo-col{
+	margin-top: 18px;
+}
+
+
+#palace-footer-social-icons{
+	margin-top: 38px;
+	margin-bottom: 30px;
+}
+
+.dark #copyrights {
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	margin-top: 0px;
+}
+
+.social-icon{
+	margin-left: 15px;
+}
+.si-colored i {
+	color: #090a04;
+}
+
+.si-colored i:hover {
+	color: white;
+}
+
+
+
+.si-colored.si-facebook {
+	background-color: #4c9922;
+
+}
+
+.si-colored.si-facebook:hover {
+	background-color: #3B5998;
+
+}
+
+
+.si-colored.si-youtube {
+	background-color: #4c9922;
+}
+
+
+.si-colored.si-youtube:hover {
+	background-color: #C4302B;
+}
+
+
+.si-colored.si-linkedin {
+	background-color: #4c9922;
+}
+
+
+.si-colored.si-linkedin:hover {
+	background-color: #0E76A8;
+}
+
+
+#gotoTop:hover{
+
+	background-color: #61ae28;
+
+}
+
+#power-by-company-name-in-footer{
+	color: grey;
+}
+
+#power-by-company-name-in-footer:hover{
+	color: #4c9922;
+}
+
+
+.col_one_third.palace-footer-power-by-col{
+	margin-bottom: 0px; 
+	margin-top: 90px;
+	left: 2%;
+	text-align: center;
+}
+
+.col_one_third.palace-footer-logo-col{
+	margin-bottom: 30px;
+	
+}
+
+.col_one_third.palace-footer-social-icons-col{
+	margin-bottom: 30px;
+}
+
+#copyrights{
+
+	padding:0 ;
+
+}
+
+
+/********************** Ending of Palace-Footer *****************/
+
+
+
+
+
+
+/********************** Starting of Palace-Button Section *****************/
+
+.button.button-reveal i{
+	background-color: transparent;
+}
+
+.button.button-reveal span {
+	top: 1px;
+}
+
+
+.button.button-reveal.button-large.tright:hover span {
+	left: -10px;
+}
+
+.button.button-rounded.button-reveal.button-large.button-border.tright{
+	border-color: transparent;
+	color: white;
+	background-color: #206931;
+	border-radius: 45px;
+	-webkit-border-radius: 45px;
+}
+
+.button.button-rounded.button-reveal.button-large.button-border.tright:hover{
+	color: #90d13b;
+	background-color: #1e642e;
+	/*text-shadow: 0 2px 15px #2f3238;*/
+}
+
+
+
+
+#palace-residence-button{
+
+	margin-top: 20px;
+}
+
+
+
+#palace-luxury-resort-button {
+
+	/* width: 240px; */
+}
+
+
+
+#meet-our-button{
+
+
+	/*width: 225px;*/
+
+}
+
+
+
+#palace-about-us-button{
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+
+#palace-about-us-button span{
+	top: 0px;
+}
+
+
+/********************** Ending of Palace-Button Section *****************/
+
+
+
+/***************************** End Of Global Css ***************************************/
+
+
+
+@media (min-width: 1800px){
+
+
+	/********************** Starting of Palace our project Section ****************************/
+	#our-project-button {
+
+	}
+
+	#our-project-button span {
+
+	}
+	/********************** ending of Palace our project Section ****************************/
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+	#palace-residence-grid{
+
+		max-width: 1920px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 960px;
+		max-height: 500px;
+		width: 50%;
+	}
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 960px;
+		width: 960px;
+		height: 500px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 20%;
+
+	}
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+	#palace-residence-logo-01{
+
+		width: 261px; 
+		height:113px; 
+		opacity: 1;
+
+	}
+
+
+
+
+
+	/****************** ending of Palace Residence Section *******************************/
+
+
+
+	/********************** Starting of Palace-about-us *****************/
+
+	#palace-about-us-grid{
+
+		max-width: 1920px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 640px;
+		max-height: 500px;
+		width: 33.333333%;
+	}
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 640px;
+		width: 640px;
+		height: 320px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 15%;
+
+	}
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+
+	/********************** ending of Palace-about-us *****************/
+
+
+	/********************** starting of Palace-footer *****************/
+
+	#power-by-company-name-in-footer{font-size: 13px;}
+
+	/********************** ending of Palace-footer *****************/
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1799px){
+
+
+	/********************** Starting of Palace our project Section ****************************/
+	#our-project-button {
+
+	}
+
+	#our-project-button span {
+
+	}
+	/********************** ending of Palace our project Section ****************************/
+
+
+	#custom-slider-caption-for-welcome-slider {
+
+		margin-top: 0%;
+		position: absolute;
+		top: 50% !important;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) !important;
+		
+	}
+
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+	#palace-residence-grid{
+
+		max-width: 1800px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 900px;
+		max-height: 400px;
+		width: 50%;
+	}
+
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 900px;
+		width: 900px;
+		height: 500px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 13%;
+
+	}
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+	#palace-residence-logo-01{
+
+		width: 261px; 
+		height:113px; 
+		opacity: 1;
+
+	}
+
+
+
+	/****************** ending of Palace Residence Section *******************************/
+
+
+
+
+
+	/********************** Starting of Palace About Us Section ****************************/
+
+
+	#palace-about-us-grid{
+
+		max-width: 1800px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 600px;
+		max-height: 400px;
+		width: 33.333333%;
+	}
+
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 600px;
+		width: 600px;
+		height: 300px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 17%;
+
+	}
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace About Us Section *******************************/
+
+
+	/********************** starting of Palace-footer *****************/
+
+	#power-by-company-name-in-footer{font-size: 13px;}
+
+	/********************** ending of Palace-footer *****************/
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+	/********************** Starting of Palace our project Section ****************************/
+	#our-project-button {
+
+	}
+
+	#our-project-button span {
+		
+	}
+	/********************** ending of Palace our project Section ****************************/
+
+
+
+	#custom-slider-caption-for-welcome-slider {
+
+		max-width: 1200px;
+		position: absolute;
+		margin-top: 0%;
+		position: absolute;
+		top: 50% !important;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) !important;
+	}
+
+
+
+
+
+	/*************** Palace-Our-Project Section Starts ***************/
+
+
+	.content-wrap.our-projects-content-wrap{
+
+		position: relative;
+		padding-left: 80px;
+
+	}
+
+	.our-project-custom-container{
+
+		min-width: 1040px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		margin: 0;
+		top: 82%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, 0%);
+
+	}
+
+
+
+	.our-project-custom-row{
+
+		min-width: 1040px;
+
+	}
+
+	.hr-to-vertical {
+
+		margin-left: 25%;
+	}
+
+
+	.our-projects-p {
+
+		width: 500px;
+		text-align: justify;
+	}
+
+
+	.col_half.palace-residence-col-half{
+
+		width: 50%;
+		margin-bottom: 0px;
+		margin-right: 0px;
+
+	}
+
+
+	.grid.palace-residence-custom-grid {
+
+
+		min-width: 600px;
+
+	}
+
+	figure.palace-residence-custom-effect-julia {
+
+		min-width: 600px;
+
+	}
+
+	figure.palace-residence-custom-effect-julia img {
+
+		min-width: 600px;
+
+	}
+
+
+	/*************** Palace-Our-Project Section Ends ***************/
+
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+
+
+
+	#palace-residence-grid{
+
+		max-width: 1200px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 600px;
+		max-height: 400px;
+		width: 50%;
+	}
+
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 600px;
+		width: 600px;
+		height: 400px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 15%;
+
+	}
+
+	#palace-residence-grid  figure figcaption:hover, #palace-residence-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace Residence Section *******************************/
+
+
+	/****************** startinging of palace-luxury-resort Section *******************************/ 
+
+	.palace-luxury-resort-poster-img-for-video {
+		min-height: 450px;
+		min-width: 300px;
+		width: 650px;
+	}
+
+	#palace-luxury-resort-i-overlay img, #palace-luxury-resort-i-overlay i {
+		display: block;
+		margin: 0;
+		position: absolute;
+		top: 54%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+	}
+
+
+
+	/****************** ending of palace-luxury-resort Section *******************************/ 
+
+
+
+	/********************** Starting of Palace About Us Section ****************************/
+
+	#palace-about-us-grid{
+
+		max-width: 1200px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 400px;
+		max-height: 400px;
+		width: 33.333333%;
+	}
+
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 400px;
+		width: 400px;
+		height: 300px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 17%;
+
+	}
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace About Us Section *******************************/
+
+	/********************** starting of Palace-footer *****************/
+
+	#power-by-company-name-in-footer{font-size: 13px;}
+
+	/********************** ending of Palace-footer *****************/
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -0.95%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+
+
+
+
+	/*************** Palace-welcome-slider Section Starts ***************/
+
+
+	#custom-welcome-slider-container{
+
+		position: relative;
+		height: 700px;
+
+
+
+	}
+
+
+
+	#custom-slider-caption-for-welcome-slider {
+		margin-top: 0%;
+		position: absolute;
+		top: 50% !important;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) !important;
+
+	}
+
+
+
+	#welcome-slider-heading-block #welcome-slider-h2-01 {
+		font-weight: 400;
+		font-family: 'Montserrat';
+		font-size: 30px;
+		color: #61ae28;
+		margin-bottom: 0px;
+		line-height: 100px;
+	}
+	/*************** Palace-welcome-slider Section Ends ***************/
+
+
+
+
+
+
+	/*************** Palace-Our-Project Section Starts ***************/
+
+
+
+	.content-wrap.our-projects-content-wrap{
+
+		position: relative;
+
+	}
+
+	.our-project-custom-container{
+
+		min-width: 800px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		margin: 0;
+		top: 82%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, 0%);
+
+	}
+
+
+
+	.our-project-custom-row{
+
+		min-width: 800px;
+
+	}
+
+
+	.col-md-4.our-project-custom-col-md-4{
+
+		min-width: 800px;
+		min-height: 300px;
+		position: relative; 
+
+	}
+
+	.col-md-1.our-project-custom-col-md-1{
+
+		min-width: 800px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.col-md-7.our-project-holding-column{
+		min-width: 800px;
+		position: relative; 
+
+	}
+
+
+	#portfolio{
+		display: block;
+		width: 300px;
+		left: 0;
+		margin: auto;
+
+
+	}
+
+	.hr-to-vertical{
+
+		min-width: 37rem;
+		height: .15rem;
+		margin-top: 5%;
+
+	}
+
+
+	.our-projects-h2{
+
+		font-size: 35px;
+		position: absolute;
+		top: 20%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.our-projects-p {
+		margin-bottom: 20px;
+		padding-top: 40px;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 16px;
+		text-align: center;
+		color: #000000;
+		min-width: 300px;
+		width: 600px;
+		margin: 0;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+	#our-project-button {
+
+		margin: 0;
+		margin-top: 40px;
+		position: absolute;
+		top: 95%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%)
+
+	}
+
+	/*************** Palace-Our-Project Section Ends ***************/
+
+
+
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+
+
+
+	#palace-residence-grid{
+
+		max-width: 992px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 992px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 992px;
+		width: 992px;
+		height: 400px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 15%;
+
+	}
+
+	#palace-residence-grid  figure figcaption:hover, #palace-residence-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+
+	/****************** ending of Palace Residence Section *******************************/
+
+
+
+	/****************** startinging of palace-luxury-resort Section *******************************/ 
+
+	.heading-block .palace-luxury-resort-h2 {
+		font-size: 35px;
+	}
+
+	.heading-block > span:not(.before-heading) {
+
+		font-size: 16px;
+		width: 500px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.palace-luxury-resort-poster-img-for-video {
+		min-height: 135px;
+		min-width: 240px;
+		width: 500px;
+	}
+
+	.heading-block.palace-luxury-resort-custom-heading-block{
+		margin-bottom: 30px
+	}
+
+	#palace-luxury-resort-button {
+		position: relative;
+		font-size: 0.8rem;
+		margin-top: 30px;
+		left: 0%;
+	}
+
+	#palace-luxury-resort-i-overlay img, #palace-luxury-resort-i-overlay i {
+		display: block;
+		margin: 0;
+		position: absolute;
+		top: 54%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+	}
+
+
+
+	/****************** ending of palace-luxury-resort Section *******************************/ 
+
+
+	/****************** Starting of palace-Meet-Our-Team Section *******************************/
+	#meet-our-team-heading-block #meet-our-team-h2-01 {
+
+		font-size: 30px;
+
+	}
+
+	#meet-our-team-heading-block .meet-our-team-h2-02 {
+		font-size: 30px;
+	}
+
+
+	#meet-our-button {
+
+		/*width: 200px;*/
+		font-size: 14px;
+	}
+
+	/****************** ending of palace-Meet-Our-Team Section *******************************/
+
+
+
+	/********************** Starting of Palace About Us Section ****************************/
+
+
+	#palace-about-us-grid{
+
+		max-width: 992px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 992px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 992px;
+		width: 992px;
+		height: 400px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 25%;
+
+	}
+
+	#palace-about-us-grid  figure figcaption:hover, #palace-about-us-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace About Us Section *******************************/ 
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) and (min-width: 481px) {
+
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -1.5%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+
+
+	/*********** Starting of Palace-welcome-slide *********/
+
+
+	#custom-welcome-slider-container{
+
+		position: relative;
+		height: 500px;
+
+
+
+	}
+
+
+
+	#custom-slider-caption-for-welcome-slider {
+		margin-top: 0%;
+		position: absolute;
+		top: 50% !important;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) !important;
+
+	}
+
+
+	#welcome-slider-heading-block #welcome-slider-h2-01 {
+		font-weight: 400;
+		font-family: 'Montserrat';
+		font-size: 17px;
+		color: #61ae28;
+		margin-bottom: 0px;
+		line-height: 65px;
+	}
+
+
+	#welcome-slider-heading-block .welcome-slider-h2-02 {
+		font-weight: 300;
+		font-family: 'Montserrat';
+		font-size: 14px;
+		color: #fff;
+		text-transform: none;
+		/*font-style: italic;*/
+		text-decoration: none;
+		margin-bottom: 40px;
+		line-height: 25px;
+	}
+
+
+	/********************** Ending of Palace-welcome-slider *****************/
+
+
+
+
+
+
+	/*************** Palace-Our-Project Section Starts ***************/
+
+
+	.content-wrap.our-projects-content-wrap{
+
+		position: relative;
+
+	}
+
+	.our-project-custom-container{
+
+		min-width: 500px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		margin: 0;
+		top: 82%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, 0%);
+
+	}
+
+
+
+	.our-project-custom-row{
+
+		min-width: 500px;
+
+	}
+
+
+	.col-md-4.our-project-custom-col-md-4{
+
+		min-width: 500px;
+		min-height: 300px;
+		position: relative; 
+
+	}
+
+	.col-md-1.our-project-custom-col-md-1{
+
+		min-width: 500px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.col-md-7.our-project-holding-column{
+		min-width: 500px;
+		position: relative; 
+
+	}
+
+
+	#portfolio{
+		display: block;
+		width: 300px;
+		left: 0;
+		margin: auto;
+
+
+	}
+
+	.hr-to-vertical{
+
+		min-width: 30rem;
+		height: .15rem;
+		margin-top: 10%;
+
+	}
+
+
+	.our-projects-h2{
+
+		font-size: 25px;
+		position: absolute;
+		top: 20%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.our-projects-p {
+		margin-bottom: 20px;
+		padding-top: 40px;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 14px;
+		text-align: center;
+		color: #000000;
+		min-width: 300px;
+		width: 500px;
+		margin: 0;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+	#our-project-button {
+
+		margin: 0;
+		margin-top: 40px;
+		position: absolute;
+		top: 95%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%)
+
+	}
+
+	/*************** Palace-Our-Project Section Ends ***************/
+
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+
+	#palace-residence-grid{
+
+		max-width: 768px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 768px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 768px;
+		width: 768px;
+		height: 400px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 15%;
+
+	}
+
+	#palace-residence-grid  figure figcaption:hover, #palace-residence-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace Residence Section *******************************/
+
+
+
+
+
+
+	/****************** startinging of palace-luxury-resort Section *******************************/ 
+
+	.palace-luxury-resort-custom-content-wrap{
+		padding-bottom: 40px;
+	}
+
+	.heading-block .palace-luxury-resort-h2 {
+		font-size: 25px;
+	}
+
+	.heading-block > span:not(.before-heading) {
+
+		font-size: 16px;
+		width: 400px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.palace-luxury-resort-poster-img-for-video {
+		min-height: 135px;
+		min-width: 240px;
+		width: 400px;
+	}
+
+	.heading-block.palace-luxury-resort-custom-heading-block{
+		margin-bottom: 50px
+	}
+
+	#palace-luxury-resort-button {
+		position: relative;
+		font-size: 0.8rem;
+		margin-top: 30px;
+		left: 0%;
+	}
+
+	#palace-luxury-resort-i-overlay img, #palace-luxury-resort-i-overlay i {
+		display: block;
+		margin: 0;
+		position: absolute;
+		top: 54%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+	}
+
+
+
+	/****************** ending of palace-luxury-resort Section *******************************/ 
+
+	/****************** Starting of palace-Meet-Our-Team Section *******************************/
+	#meet-our-team-heading-block #meet-our-team-h2-01 {
+
+		font-size: 22px;
+
+	}
+
+	#meet-our-team-heading-block .meet-our-team-h2-02 {
+		font-size: 22px;
+	}
+
+
+	#meet-our-button {
+
+		/*width: 200px;*/
+		font-size: 14px;
+	}
+
+	/****************** ending of palace-Meet-Our-Team Section *******************************/
+
+
+
+	/****************** Starting of palace-Why-Us Section *******************************/
+	.heading-block .palace-why-us-h2 {
+		font-size: 25px;
+	}
+	/****************** ending of palace-Why-Us Section *******************************/
+
+
+
+
+	/********************** Starting of Palace About Us Section ****************************/
+
+
+	#palace-about-us-grid{
+
+		max-width: 768px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 768px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 768px;
+		width: 768px;
+		height: 400px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 25%;
+
+	}
+
+	#palace-about-us-grid  figure figcaption:hover, #palace-about-us-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace About Us Section *******************************/ 
+
+
+
+
+
+
+	/****************** Starting of palace-Contact-Us Section *******************************/
+
+	#palace-contact-header {
+		font-size: 25px;
+		margin-bottom: -25px;
+	}
+
+	.palace-contact-us-span{
+		padding-top: 30px;
+	}
+	/****************** ending of palace-Contact-Us Section *******************************/
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: -20px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 300px;
+	}
+
+	#copyrights{
+		height: 300px;
+		padding-top: 20px ;
+		padding-bottom: 20px;
+
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+}
+
+
+
+
+@media (max-width: 480px) and (min-width: 322px){
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -2%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+
+	/*********** Starting of Palace-welcome-slide *********/
+
+	#custom-welcome-slider-container{
+
+		position: relative;
+		height: 500px;
+
+
+
+	}
+
+
+
+	#custom-slider-caption-for-welcome-slider {
+		margin-top: 0%;
+		position: absolute;
+		top: 50% !important;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) !important;
+
+	}
+
+
+
+	#custom-slider-caption-for-welcome-slider{
+
+		margin-top: 0%;
+		max-width: none;
+
+
+	}
+
+
+	#welcome-slider-heading-block #welcome-slider-h2-01 {
+		
+		font-weight: 600;
+		font-family: 'Montserrat';
+		font-size: 16px;
+		color: #61ae28;
+		margin-bottom: 0px;
+		line-height: 55px;
+	}
+
+
+	#welcome-slider-heading-block .welcome-slider-h2-02 {
+		font-weight: 300;
+		font-family: 'Montserrat';
+		font-size: 17px;
+		color: #fff;
+		text-transform: none;
+		/*font-style: italic;*/
+		text-decoration: none;
+		margin-bottom: 40px;
+		line-height: 25px;
+		
+	}
+
+
+	/********************** Ending of Palace-welcome-slider *****************/
+
+
+
+
+
+
+	/*************** Palace-Our-Project Section Starts ***************/
+
+	.our-project-custom-container{
+
+		min-width: 300px;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.our-project-custom-row{
+
+		min-width: 300px;
+
+	}
+
+
+	.col-md-4.our-project-custom-col-md-4{
+
+		min-width: 300px;
+		min-height: 300px;
+		position: relative; 
+
+	}
+
+	.col-md-1.our-project-custom-col-md-1{
+
+		min-width: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.col-md-7.our-project-holding-column{
+		min-width: 300px;
+		position: relative; 
+
+	}
+
+
+	#portfolio{
+		display: block;
+		width: 300px;
+		left: 0;
+		margin: auto;
+
+
+	}
+
+	.hr-to-vertical{
+
+		min-width: 300px;
+		height: 2.4px;
+		margin-top: 12%;
+
+	}
+
+
+
+	.our-projects-content-wrap {
+		padding-top: 80px;
+		padding-bottom: 210px;
+	}
+
+
+	.our-projects-h2{
+
+		font-size: 22px;
+		position: absolute;
+		top: 13%;
+		font-weight: 600;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.our-projects-p {
+		margin-bottom: 20px;
+		padding-top: 50px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-family: 'Montserrat';
+		font-weight: 300;
+		font-size: 14px;
+		text-align: justify;
+		color: #000000;
+		min-width: 300px;
+		width: 300px;
+		margin: 0;
+		position: absolute;
+		top: 65%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+	#our-project-button {
+
+		font-size: 12px;
+		font-weight: 400;
+		margin: 0;
+		margin-top: 50px;
+		position: absolute;
+		top: 125%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	/*************** Palace-Our-Project Section Ends ***************/
+
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+
+	#palace-residence-grid{
+
+		max-width: 480px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 480px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 480px;
+		width: 480px;
+		height: 400px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 15%;
+
+	}
+
+	#palace-residence-grid  figure figcaption:hover, #palace-residence-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+
+
+	/****************** ending of Palace Residence Section *******************************/ 
+
+
+	/****************** startinging of palace-luxury-resort Section *******************************/ 
+
+	.heading-block .palace-luxury-resort-h2 {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.heading-block > span:not(.before-heading) {
+
+		font-size: 14px;
+		width: 245px;
+		margin-bottom: 10px;
+		text-align: justify;
+
+	}
+
+	.palace-luxury-resort-span{
+		text-align: justify;
+	}
+
+	.palace-luxury-resort-poster-img-for-video {
+		min-height: 135px;
+		min-width: 240px;
+		/*width: 300px;*/
+	}
+
+	.heading-block.palace-luxury-resort-custom-heading-block{
+		margin-bottom: 50px
+	}
+
+	#palace-luxury-resort-button {
+		position: relative;
+		font-size: 12px;
+		font-weight: 400;
+		margin-top: 30px;
+		left: 0%;
+	}
+
+	#palace-luxury-resort-i-overlay img, #palace-luxury-resort-i-overlay i {
+		display: block;
+		margin: 0;
+		position: absolute;
+		top: 54%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+	}
+
+
+
+	/****************** ending of palace-luxury-resort Section *******************************/ 
+
+
+	/****************** Starting of palace-Meet-Our-Team Section *******************************/
+	#meet-our-team-heading-block #meet-our-team-h2-01 {
+
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 45px;
+
+	}
+
+	#meet-our-team-heading-block .meet-our-team-h2-02 {
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+
+	#meet-our-button {
+
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	/****************** ending of palace-Meet-Our-Team Section *******************************/
+
+
+
+	/****************** Starting of palace-Why-Us Section *******************************/
+	.heading-block .palace-why-us-h2 {
+		font-size: 22px;
+		font-weight: 600;
+	}
+	/****************** ending of palace-Why-Us Section *******************************/
+
+
+
+
+
+	/********************** Starting of Palace About Us Section ****************************/
+
+
+	#palace-about-us-grid{
+
+		max-width: 480px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 480px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 480px;
+		width: 480px;
+		height: 400px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 25%;
+
+	}
+
+	#palace-about-us-grid  figure figcaption:hover, #palace-about-us-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace About Us Section *******************************/ 
+
+
+
+
+
+
+	/****************** Starting of palace-Contact-Us Section *******************************/
+
+	#palace-contact-header {
+		font-size: 22px;
+		margin-bottom: -25px;
+		font-weight: 600;
+	}
+
+	.palace-contact-us-span{
+		padding-top: 30px;
+		text-align: center;
+	}
+	/****************** ending of palace-Contact-Us Section *******************************/
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: -20px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 300px;
+	}
+
+	#copyrights{
+		height: 300px;
+		padding-top: 20px ;
+		padding-bottom: 20px;
+
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+}
+
+
+
+
+@media (max-width: 321px){
+
+
+	/*************** Palace-Header Section Starts ***************/
+
+	#home-icon {
+		margin-top: -2.95%;
+	}
+
+
+	/*************** Palace-Header Section Starts ***************/
+
+
+
+
+
+	/*********** Starting of Palace-welcome-slide *********/
+
+	#custom-slider-caption-for-welcome-slider{
+
+		margin-top: 95%;
+		max-width: 300px;
+		height: 300px;
+
+
+
+	}
+
+
+	#welcome-slider-heading-block #welcome-slider-h2-01 {
+		font-weight: 400;
+		font-family: 'Montserrat';
+		font-size: 18px;
+		color: #61ae28;
+		margin-bottom: 0px;
+		line-height: 38px;
+	}
+
+
+	#welcome-slider-heading-block .welcome-slider-h2-02 {
+		font-weight: 300;
+		font-family: 'Montserrat';
+		font-size: 11px;
+		color: #fff;
+		text-transform: none;
+		/*font-style: italic;*/
+		text-decoration: none;
+		margin-bottom: 40px;
+		line-height: 20px;
+	}
+
+
+	/********************** Ending of Palace-welcome-slider *****************/
+
+
+
+
+
+
+	/*************** Palace-Our-Project Section Starts ***************/
+
+
+
+
+	.our-project-custom-container{
+
+		min-width: 300px;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.our-project-custom-row{
+
+		min-width: 300px;
+
+	}
+
+
+	.col-md-4.our-project-custom-col-md-4{
+
+		min-width: 300px;
+		min-height: 300px;
+		position: relative; 
+
+	}
+
+	.col-md-1.our-project-custom-col-md-1{
+
+		min-width: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.col-md-7.our-project-holding-column{
+		min-width: 300px;
+		position: relative; 
+
+	}
+
+
+	#portfolio{
+		display: block;
+		width: 300px;
+		left: 0;
+		margin: auto;
+
+
+	}
+
+	.hr-to-vertical{
+
+		min-width: 250px;
+		height: 2.4px;
+		margin-top: 15%;
+
+	}
+
+
+
+	.our-projects-content-wrap {
+		padding-top: 80px;
+		padding-bottom: 170px;
+	}
+
+
+
+	.our-projects-h2{
+
+		font-size: 25px;
+		position: absolute;
+		top: 15%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.our-projects-p {
+		margin-bottom: 30px;
+		padding-top: 45px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'Montserrat';
+		font-weight: 300;
+		font-size: 13px;
+		text-align: justify;
+		color: #000000;
+		min-width: 300px;
+		width: 240px;
+		margin: 0;
+		position: absolute;
+		top: 60%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+	#our-project-button {
+
+		font-size: 0.8rem;
+		margin: 0;
+		margin-top: 40px;
+		position: absolute;
+		top: 115%;
+		left: 52.2%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	/*************** Palace-Our-Project Section Ends ***************/
+
+
+
+
+	/********************** Starting of Palace Residence Section ****************************/
+
+	#palace-residence-grid{
+
+		max-width: 480px;
+
+	}
+
+
+	#palace-residence-grid figure {
+
+		min-width: 320px;
+		max-width: 480px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+
+	figure.palace-residence-effect-lily #palace-residence-background-img {
+		max-width: 480px;
+		width: 480px;
+		height: 400px;
+
+	}
+
+	#palace-residence-lily-fig-caption-div{
+
+		top: 15%;
+
+	}
+
+	#palace-residence-grid  figure figcaption:hover, #palace-residence-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace Residence Section *******************************/ 
+
+
+
+
+
+	/****************** startinging of palace-luxury-resort Section *******************************/ 
+	.palace-luxury-resort-custom-content-wrap{
+		padding-bottom: 40px;
+	}
+	.heading-block .palace-luxury-resort-h2 {
+		font-size: 25px;
+	}
+
+	.heading-block > span:not(.before-heading) {
+		font-size: 13px;
+		width: 240px;
+		text-align: justify;
+		margin-bottom: 10px;
+		line-height: 24px;
+	}
+
+	.palace-luxury-resort-poster-img-for-video {
+		min-height: 135px;
+		min-width: 240px;
+		/*width: 300px;*/
+	}
+
+	.heading-block.palace-luxury-resort-custom-heading-block{
+		margin-bottom: 50px
+	}
+
+	#palace-luxury-resort-button {
+		position: relative;
+		font-size: 0.8rem;
+		margin-top: 30px;
+		left: 0%;
+	}
+
+	#palace-luxury-resort-i-overlay img, #palace-luxury-resort-i-overlay i {
+		display: block;
+		margin: 0;
+		position: absolute;
+		top: 54%;
+		left: 52%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+	}
+
+
+
+	/****************** ending of palace-luxury-resort Section *******************************/ 
+
+
+
+	/****************** Starting of palace-Meet-Our-Team Section *******************************/
+	#meet-our-team-heading-block #meet-our-team-h2-01 {
+
+		font-size: 14px;
+		line-height: 45px;
+	}
+
+	#meet-our-team-heading-block #meet-our-team-h2-01 {
+		font-weight: 600;
+	}
+
+	#meet-our-team-heading-block .meet-our-team-h2-02 {
+		font-size: 13px;
+		line-height: 32px;
+		font-weight: 600;
+	}
+
+
+
+	#meet-our-button {
+		font-size: 10px;
+		font-weight: 400;
+	}
+
+	/****************** ending of palace-Meet-Our-Team Section *******************************/
+
+
+
+
+
+
+
+	/****************** Starting of palace-Why-Us Section *******************************/
+	.heading-block .palace-why-us-h2 {
+		font-size: 25px;
+	}
+	/****************** ending of palace-Why-Us Section *******************************/
+
+
+
+
+	/********************** Starting of Palace About Us Section ****************************/
+
+
+	#palace-about-us-grid{
+
+		max-width: 320px;
+
+	}
+
+
+	#palace-about-us-grid figure {
+
+		min-width: 320px;
+		max-width: 320px;
+		max-height: 400px;
+		width: 100%;
+	}
+
+
+	figure.palace-about-us-effect-lily #palace-about-us-background-img {
+		max-width: 320px;
+		width: 320px;
+		height: 400px;
+
+	}
+
+	#palace-about-us-lily-fig-caption-div{
+
+		top: 25%;
+
+	}
+
+	#palace-about-us-grid  figure figcaption:hover, #palace-about-us-grid  figure figcaption:hover > a {
+		top: -1%;
+	}
+
+
+	figure.effect-lily:hover h2 {
+		margin-bottom: 20px;
+	}
+
+
+
+	/****************** ending of Palace About Us Section *******************************/ 
+
+
+
+
+
+
+
+	/****************** Starting of palace-Contact-Us Section *******************************/
+
+	#palace-contact-header {
+		font-size: 25px;
+		margin-bottom: -25px;
+	}
+
+	.palace-contact-us-span{
+		padding-top: 30px;
+	}
+
+
+	/****************** ending of palace-Contact-Us Section *******************************/
+
+
+
+
+
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: -20px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 310px;
+	}
+
+	#copyrights{
+		height: 310px;
+		padding-top: 20px ;
+		padding-bottom: 20px;
+
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

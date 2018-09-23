@@ -1,0 +1,1517 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+	-----------------------------------------------------------------*/
+
+	/* Global CSS */
+	a {
+		color: #555
+	}
+
+	a:hover{
+		color: #216832 ;
+	}
+
+	p,
+	pre,
+	ul,
+	ol,
+	dl,
+	dd,
+	blockquote,
+	address,
+	table,
+	fieldset,
+	form { 
+
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-family: 'Montserrat';
+		font-size: 16px;
+		line-height: 32px !important;
+		font-weight: 300;
+		text-align: justify;
+
+	}
+
+
+	.button.button-reveal i{
+		background-color: transparent;
+	}
+
+	.button.button-reveal span {
+		top: 1px;
+	}
+
+
+	.button.button-reveal.button-large.tright:hover span {
+		left: -10px;
+	}
+
+	.button.button-rounded.button-reveal.button-large.button-border.tright{
+		border-color: transparent;
+		color: white;
+		background-color: #206931;
+		border-radius: 45px;
+		-webkit-border-radius: 45px;
+	}
+
+	.button.button-rounded.button-reveal.button-large.button-border.tright:hover{
+		color: #90d13b;
+		background-color: #1e642e;
+		/*text-shadow: 0 2px 15px #2f3238;*/
+	}
+
+
+	.company-profile-sister-concern-button{
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+
+
+	/************************* Starting of Circular Hover Effect Section *************************/
+
+
+	.ch-grid {
+		margin: 20px 0 0 0;
+		padding: 0;
+		list-style: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+
+	.ch-grid:after,
+	.ch-item:before {
+		content: '';
+		display: table;
+	}
+
+	.ch-grid:after {
+		clear: both;
+	}
+
+	.ch-grid li {
+		width: 220px;
+		height: 220px;
+		display: inline-block;
+		margin: 20px;
+	}
+
+
+
+	.ch-item {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		position: relative;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+		cursor: default;
+	}
+
+	.ch-info-wrap, 
+	.ch-info{
+		position: absolute;
+		width: 180px;
+		height: 180px;
+		border-radius: 50%;
+	}
+
+	.ch-info-wrap {
+		top: 20px;
+		left: 20px;
+		background: #8c8c8c url(../images/custom-images/section/sister-concern/bg.jpg);
+		box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+	}
+
+	.ch-info > div {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		background-position: center center;
+		
+		-webkit-backface-visibility: hidden; /*Just for webkit to have a smooth font*/
+	}
+
+	.ch-info .ch-info-front {
+		-webkit-transition: all 0.6s ease-in-out;
+		-moz-transition: all 0.6s ease-in-out;
+		-o-transition: all 0.6s ease-in-out;
+		-ms-transition: all 0.6s ease-in-out;
+		transition: all 0.6s ease-in-out;
+	}
+
+/*	.ch-info .ch-info-back {
+		opacity: 0;
+
+		background: #223e87;
+		background: #8c8c8c url(../images/custom-images/section/sister-concern/14.jpg);
+		pointer-events: none;
+		
+		-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		transform: scale(1.5);
+		
+		-webkit-transition: all 0.4s ease-in-out 0.2s;
+		-moz-transition: all 0.4s ease-in-out 0.2s;
+		-o-transition: all 0.4s ease-in-out 0.2s;
+		-ms-transition: all 0.4s ease-in-out 0.2s;
+		transition: all 0.4s ease-in-out 0.2s;
+		}*/
+
+		.ch-info .custom-ch-info-back-1 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/05.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-2 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/06.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-3 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/02.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-4 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/01.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-5 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/07.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-6 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/04.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-7 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/08.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+		.ch-info .custom-ch-info-back-8 {
+			opacity: 0;
+
+			/*background: #223e87;*/
+			background: #8c8c8c url(../images/custom-images/section/sister-concern/sister-concern-logos/03.jpg);
+			pointer-events: none;
+
+			-webkit-transform: scale(1.5);
+			-moz-transform: scale(1.5);
+			-o-transform: scale(1.5);
+			-ms-transform: scale(1.5);
+			transform: scale(1.5);
+
+			-webkit-transition: all 0.4s ease-in-out 0.2s;
+			-moz-transition: all 0.4s ease-in-out 0.2s;
+			-o-transition: all 0.4s ease-in-out 0.2s;
+			-ms-transition: all 0.4s ease-in-out 0.2s;
+			transition: all 0.4s ease-in-out 0.2s;
+		}
+
+
+		.ch-img-1 { 
+			background-image: url(../images/custom-images/logo/sister-concern/palace-luxury-resort-logo.jpg);
+		}
+
+		.ch-img-2 { 
+			background-image: url(../images/custom-images/logo/sister-concern/sky-air-logo.jpg);
+		}
+
+		.ch-img-3 { 
+			background-image: url(../images/custom-images/logo/sister-concern/bpfw-logo.jpg);
+		}
+
+		.ch-img-4 { 
+			background-image: url(../images/custom-images/logo/sister-concern/bpkw-logo.jpg);
+		}
+
+		.ch-img-5 { 
+			background-image: url(../images/custom-images/logo/sister-concern/capm-logo.jpg);
+		}
+
+		.ch-img-6 { 
+			background-image: url(../images/custom-images/logo/sister-concern/MMSML-logo.png);
+		}
+
+		.ch-img-7 { 
+			background-image: url(../images/custom-images/logo/sister-concern/bpkc-logo.jpg);
+		}
+
+		.ch-img-8 { 
+			background-image: url(../images/custom-images/section/sister-concern/BSML-Logo.jpg);
+		}
+
+		.ch-info h3 {
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 18px;
+			margin: 0 15px;
+			padding: 40px 0 0 0;
+			height: 80px;
+			font-family: 'Muli';
+			text-shadow: 
+			0 0 1px #fff, 
+			0 1px 2px rgba(0,0,0,0.3);
+		}
+
+		.ch-info p {
+			color: #fff;
+			padding: 10px 5px 0;
+			font-style: normal;
+			margin: 0 30px;
+			font-size: 12px;
+			border-top: 1px solid rgba(255,255,255,0.5);
+		}
+
+		.ch-info p a {
+			display: block;
+			color: #e7615e;
+			font-style: normal;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 16px;
+			letter-spacing: 1px;
+			padding-top: 4px;
+			font-family: 'Montserrat';
+		}
+
+		.ch-info p a:hover {
+			color: #fff;
+		}
+
+		.ch-item:hover .ch-info-front {
+			-webkit-transform: scale(0);
+			-moz-transform: scale(0);
+			-o-transform: scale(0);
+			-ms-transform: scale(0);
+			transform: scale(0);
+
+			opacity: 0;
+		} 
+
+		.ch-item:hover .ch-info-back {
+
+			background-position: center center;
+			
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-o-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+
+			opacity: 1;
+			pointer-events: auto;
+		}
+		/************************* Ending of Circular Hover Effect Section *************************/
+
+
+
+
+		/************************* Starting of Header Section *************************/
+
+		#primary-menu ul ul li a .primary-menu-ul-li-a-div {
+
+			text-transform: none;
+
+		}
+		
+
+		#header-wrap {
+			background-image: url(../images/custom-images/section/sister-concern/header-background.png);
+		}
+
+		#home-icon{
+
+			width: 16px;
+			height: 16px;
+			margin-top: -7%;
+		}
+
+
+		#header.sticky-header #header-wrap {
+
+			background-color: #333333;
+
+		}
+
+
+		#primary-menu ul ul li:hover > a {
+
+			background-color: #444;
+
+		}
+
+
+		#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+
+			background-color: #444;
+
+			border: 1px solid #333333;
+			border-top: 1.5px solid #66912e;
+
+		}
+
+
+		.primary-menu-ul-li-a-div{
+
+			font-family: 'Muli';
+			font-weight: 300;
+			font-size: 16px;
+			color: white;
+
+		}
+
+		.primary-menu-ul-li-a-div:hover{
+
+			color: #66912e;
+
+		}
+
+
+
+		.dark #primary-menu:not(.not-dark) ul ul, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content, #primary-menu.dark ul ul, #primary-menu.dark ul li .mega-menu-content {
+
+			border-top-color: #66912e; 
+		}
+
+
+
+
+
+		/************************* Ending of Header Section *************************/
+
+
+		/*Starting of body */
+
+		.custom-loader{
+/*			width: 480px;
+height: 270px;*/
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+/*Ending of body */
+
+
+
+/********************** Starting of palace-company-profile  *****************/	
+.slider-element .custom-slider-container {
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,-50%);
+}
+
+.heading-block.palace-first-slider-custom-heading-block{
+	position: absolute;
+	margin:0; 
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,-50%);
+}
+
+.heading-block .palace-first-slider-h2{
+
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	/*color: #77b12c;*/
+	color: white;
+	margin-bottom: 30px;
+
+
+}
+
+.heading-block .palace-first-slider-h2{
+
+
+	margin-bottom: 30px;
+	margin-top: 25%;
+
+}
+
+
+
+.palace-company-profile-section{
+	/*background-image: url(../images/custom-images/section/company-profile/background-img-company-profile.jpg);*/
+}
+
+.heading-block.palace-company-profile-custom-heading-block{
+	margin-bottom: 50px
+}
+
+.heading-block:after{
+
+	display: none;
+
+}
+
+.heading-block .palace-company-profile-h2{
+
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: #77b12c;
+	margin-bottom: 30px;
+
+}
+
+
+.heading-block  .palace-company-profile-span:not(.before-heading) {
+
+	font-weight: 300;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	line-height: 32px;
+	color: white;
+	text-align: justify;
+
+}
+
+.team-image.company-profile-ceo-msg-custom-team-img{
+	display: block;
+	width: 198px;
+	border: 7px solid #304721;
+}
+
+
+
+.team-title.company-profile-custom-team-title h4{
+
+	font-family: 'Muli';
+	font-size: 22px;
+	font-weight: 900;
+	color: #77b12c;
+	text-transform: none;	
+
+}
+
+.team-title.company-profile-custom-team-title span {
+	display: block;
+	color: #77b12c;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-size: 16px;
+	margin-top: 2px;
+}
+
+
+.team-content.company-profile-custom-team-content {
+	margin-top: 40px;
+	color: white;
+	padding-right: 10px;
+}
+/********************** Ending of Palace-Company-Profile *****************/
+
+
+
+
+
+/********************** Starting of palace-corporate-profile-sister-concern  *****************/	
+
+
+
+.heading-block.palace-corporate-profile-sister-concern-custom-heading-block{
+	margin-bottom: 30px
+}
+
+
+.heading-block .palace-corporate-profile-sister-concern-h2{
+
+	font-weight: 700;
+	font-family: 'Muli';
+	font-size: 45px;
+	color: #216832;
+	margin-bottom: 30px;
+
+}
+
+
+.corporate-profile-sister-concern-logo-title{
+	
+	font-family: 'Montserrat';
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+
+
+/********************** Ending of palace-corporate-profile-sister-concern *****************/
+
+
+
+
+
+
+/********************** Starting of Palace-Footer *****************/
+
+#palace-power-by {
+	font-size: 14px;
+}
+
+#power-by-company-name-in-footer{
+	font-size: 13px;
+}
+
+#palace-footer-logo-col{
+	margin-top: 18px;
+}
+
+
+#palace-footer-social-icons{
+	margin-top: 38px;
+	margin-bottom: 30px;
+}
+
+.dark #copyrights {
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	margin-top: 0px;
+}
+
+.social-icon{
+	margin-left: 15px;
+}
+.si-colored i {
+	color: #090a04;
+}
+
+.si-colored i:hover {
+	color: white;
+}
+
+
+
+.si-colored.si-facebook {
+	background-color: #4c9922;
+
+}
+
+.si-colored.si-facebook:hover {
+	background-color: #3B5998;
+
+}
+
+
+.si-colored.si-youtube {
+	background-color: #4c9922;
+}
+
+
+.si-colored.si-youtube:hover {
+	background-color: #C4302B;
+}
+
+
+.si-colored.si-linkedin {
+	background-color: #4c9922;
+}
+
+
+.si-colored.si-linkedin:hover {
+	background-color: #0E76A8;
+}
+
+
+#gotoTop:hover{
+
+	background-color: #61ae28;
+
+}
+
+#power-by-company-name-in-footer{
+	color: grey;
+}
+
+#power-by-company-name-in-footer:hover{
+	color: #4c9922;
+}
+
+
+.col_one_third.palace-footer-power-by-col{
+	margin-bottom: 0px; 
+	margin-top: 90px;
+	left: 2%;
+	text-align: center;
+}
+
+.col_one_third.palace-footer-logo-col{
+	margin-bottom: 30px;
+
+}
+
+.col_one_third.palace-footer-social-icons-col{
+	margin-bottom: 30px;
+}
+
+#copyrights{
+
+	padding:0 ;
+
+}
+
+
+/********************** Ending of Palace-Footer *****************/
+
+
+
+
+
+/***************************** End Of Global Css ***************************************/
+
+
+
+@media (min-width: 1800px){
+
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 100px
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 45px;
+		margin-bottom: 30px;
+
+	}
+
+	.heading-block.palace-company-profile-custom-heading-block.center .palace-company-profile-span, 
+	.palace-company-profile-custom-heading-block.title-center .palace-company-profile-span, 
+	.center .palace-company-profile-custom-heading-block .palace-company-profile-span {
+		
+		max-width: 1080px;
+		margin-left: 0;
+		margin-right: 0;
+
+	}
+
+	.heading-block  .palace-company-profile-span:not(.before-heading) {
+		width: 1060px;
+	}
+
+	.team.company-profile-custom-team-md{
+
+		margin-left: 70px;
+
+	}
+
+
+	.team.company-profile-custom-team-dmd{
+
+		margin-right: 70px;
+
+	}
+
+	.company-profile-custom-col-5{
+		margin-left: 35px;
+	}
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 16.666667%;
+		flex: 0 0 0.666667%;
+		max-width: 0%;
+		border-right: 2px solid #90d13b;
+		margin-right: 110px;
+		margin-left: 90px;
+
+	}
+
+
+
+	/********************** Ending of Palace-Company-Profile *****************/
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1799px){
+
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 100px
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 45px;
+		margin-bottom: 30px;
+
+	}
+
+	.heading-block.palace-company-profile-custom-heading-block.center .palace-company-profile-span, 
+	.palace-company-profile-custom-heading-block.title-center .palace-company-profile-span, 
+	.center .palace-company-profile-custom-heading-block .palace-company-profile-span {
+		max-width: 1050px;
+	}
+
+	.heading-block  .palace-company-profile-span:not(.before-heading) {
+		width: 1025px;
+	}
+
+
+	.team-content.company-profile-custom-team-content {
+		margin-top: 40px;
+		color: white;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1025px;
+	}
+
+
+
+	.company-profile-custom-col-5{
+		margin-left: 35px;
+	}
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 16.666667%;
+		flex: 0 0 0.666667%;
+		max-width: 0%;
+		border-right: 2px solid #90d13b;
+		margin-right: 65px;
+		margin-left: 40px;
+
+	}
+
+
+
+	/********************** Ending of Palace-Company-Profile *****************/
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 100px
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 45px;
+		margin-bottom: 30px;
+
+	}
+
+
+	.company-profile-custom-col-5{
+		margin-left: 15px;
+	}
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 16.666667%;
+		flex: 0 0 0.666667%;
+		max-width: 0%;
+		border-right: 2px solid #90d13b;
+		margin-right: 65px;
+		margin-left: 40px;
+
+	}
+
+
+	.team-content.company-profile-custom-team-content {
+		margin-top: 40px;
+		color: white;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 705px;
+	}
+
+
+
+	/********************** Ending of Palace-Company-Profile *****************/  
+
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -0.95%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 70px;
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 45px;
+		margin-bottom: 30px;
+
+	}
+
+	.heading-block .palace-company-profile-span:not(.before-heading) {
+
+		width: 600px;
+
+	}
+
+
+	.team-content.company-profile-custom-team-content {
+		margin-top: 40px;
+		color: white;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+	}
+
+
+	.company-profile-custom-col-5{
+		margin-left: 15px;
+	}
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0; 
+		-ms-flex: 1 0 16.666667%;
+		flex: 1 0 0.666667%;
+		max-width: 992px;
+		border-top: 2px solid #90d13b;
+		margin-top: 40px;
+		margin-bottom: 45px;
+
+	}
+
+
+
+	/********************** Ending of Palace-Company-Profile *****************/  
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) and (min-width: 481px) {
+
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -1.5%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+	/*External*/
+	.heading-block .palace-first-slider-h2 {
+
+		font-size: 22px;
+	}
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 70px;
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 35px;
+		margin-bottom: 30px;
+
+	}
+	.heading-block .palace-company-profile-span:not(.before-heading) {
+
+		width: 450px;
+
+	}
+
+
+	.team-content.company-profile-custom-team-content {
+		margin-top: 40px;
+		color: white;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 450px;
+	}
+
+
+	.company-profile-custom-col-5{
+		margin-left: 15px;
+	}
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0; 
+		-ms-flex: 1 0 16.666667%;
+		flex: 1 0 0.666667%;
+		max-width: 768px;
+		border-top: 2px solid #90d13b;
+		margin-top: 40px;
+		margin-bottom: 45px;
+
+	}
+
+	.heading-block .palace-corporate-profile-sister-concern-h2 {
+
+		font-size: 35px;
+	}
+
+
+	.company-profile-sister-concern-button {
+		margin-bottom: 20px;
+	}
+
+	/********************** Ending of Palace-Company-Profile *****************/  
+
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 315px;
+	}
+
+	#copyrights {
+		height: 315px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+}
+
+
+
+
+@media (max-width: 480px) and (min-width: 322px){
+
+	/*************** Palace-Header Section Starts ***************/
+	#home-icon {
+		width: 16px;
+		height: 16px;
+		margin-top: -2%;
+	}
+	/*************** Palace-Header Section Ends ***************/
+
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+	/*External*/
+	.heading-block .palace-first-slider-h2 {
+
+		font-size: 22px;
+	}
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 70px;
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 25px;
+		margin-bottom: 30px;
+
+	}
+	.heading-block .palace-company-profile-span:not(.before-heading) {
+
+		/*	width: 280px;*/
+	}
+
+	.company-profile-custom-col-5{
+		margin-left: 15px;
+	}
+
+
+	.team-content.company-profile-custom-team-content {
+		
+		margin-top: 40px;
+		color: white;
+		padding-right: 0px;
+
+	}
+
+
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0; 
+		-ms-flex: 1 0 16.666667%;
+		flex: 1 0 0.666667%;
+		max-width: 480px;
+		border-top: 2px solid #90d13b;
+		margin-top: 40px;
+		margin-bottom: 45px;
+
+	}
+
+	.heading-block .palace-corporate-profile-sister-concern-h2 {
+
+		font-size: 24px;
+
+	}
+
+
+	#palace-luxury-resort-button{
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+
+	.company-profile-sister-concern-button {
+		margin-bottom: 0px;
+	}
+
+	/********************** Ending of Palace-Company-Profile *****************/  
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 315px;
+	}
+
+	#copyrights {
+		height: 315px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+}
+
+
+
+
+@media (max-width: 321px){
+
+
+	/*************** Palace-Header Section Starts ***************/
+
+	#home-icon {
+		margin-top: -2.95%;
+	}
+
+
+	/*************** Palace-Header Section Starts ***************/
+
+
+
+
+	/********************** Starting of palace-company-profile  *****************/	
+
+	/*External*/
+	.heading-block .palace-first-slider-h2 {
+
+		font-size: 22px;
+	}
+
+
+	.heading-block.palace-company-profile-custom-heading-block{
+		margin-bottom: 70px;
+	}
+
+
+	.heading-block .palace-company-profile-h2{
+
+		font-size: 22px;
+		margin-bottom: 30px;
+
+	}
+
+	.heading-block .palace-company-profile-span:not(.before-heading) {
+		width: 220px;
+	}
+
+	.company-profile-custom-col-5{
+		margin-left: 15px;
+	}
+
+
+	.team-content.company-profile-custom-team-content {
+		margin-top: 40px;
+		color: white;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+
+
+	.team-image.company-profile-ceo-msg-custom-team-img{
+		display: block;
+		width: 198px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%,0%);
+	}
+
+	.col-md-2.company-profile-vertical-line-custom-col{
+		-webkit-box-flex: 0; 
+		-ms-flex: 1 0 16.666667%;
+		flex: 1 0 0.666667%;
+		max-width: 320px;
+		border-top: 2px solid #90d13b;
+		margin-top: 40px;
+		margin-bottom: 45px;
+
+	}
+
+	.heading-block .palace-corporate-profile-sister-concern-h2 {
+
+		font-size: 22px;
+		
+	}
+
+	/********************** Ending of Palace-Company-Profile *****************/  
+
+
+
+
+
+	/****************** Starting of palace-Footer  Section *******************************/
+
+	#palace-footer-logo{
+		margin: 0;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -20%);
+	}
+
+	#palace-footer-social-icons{
+
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+
+	.col_one_third.palace-footer-power-by-col {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	#footer{
+		height: 315px;
+	}
+
+	#copyrights {
+		height: 315px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	/****************** ending of palace-Footer Section *******************************/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
