@@ -1,134 +1,14 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-
-<!-- Mirrored from palaceres.com/palace-residence-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Sep 2018 09:56:45 GMT -->
-<head>
-
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Palace Residence | Prime Real Estate in Dhaka" />
-
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Crete+Round:400i" rel="stylesheet" type="text/css" />
-
-
-    <link rel="stylesheet" type="text/css" href="css/styles-minify.css">
-
-
-
-    <link rel="stylesheet" href="css/custom-project-02.css" type="text/css" />
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
-    <title>Palace Residence 2 | Prime Real Estate in Dhaka</title>
-
-    <link rel="icon" href="images/custom-images/logo/favi-logo-palace.png">
+<?php require_once('header.php'); ?>
     
 
-</head>
-
-<body data-loader-html="<img src='images/custom-images/logo/GPL-LOGO-animation-3.gif' alt='Loading Page' class='custom-loader'/>" class="stretched">
-
-<nav class="cd-vertical-nav">
-    <ul>
-        <li><a href="#palace-project-content" id="intro-nav"><span class="label">Features</span></a></li>
-        <li><a href="#top-left-img-location-map" id="location"><span class="label">Location</span></a></li>
-        <li><a href="#top-left-img-layout-plan" id="plan"><span class="label">Layout</span></a></li>
-        <li><a href="#top-left-img-booking-form" id="booking"><span class="label">Booking</span></a></li>
-        <li><a href="#top-left-img-term" id="term"><span class="label">Conditions</span></a></li>
-
-
-
-    </ul>
-</nav><!-- .cd-vertical-nav -->
-
-<button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
-
-
-<div id="wrapper" class="clearfix">
-
-
-
-
-    <header id="header" class="transparent-header dark">
-
-        <div id="header-wrap">
-
-            <div class="container clearfix">
-
-                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-                <div id="logo">
-
-                    <a href="index-2.html" class="standard-logo" data-dark-logo="images/custom-images/logo/header-logo-01.png"><img src="images/custom-images/logo/header-logo-01.png" alt="Canvas Logo"></a>
-
-                    <a href="index-2.html" class="retina-logo" data-dark-logo="images/custom-images/logo/ratina-logo-dark-2x-01.png"><img src="images/custom-images/logo/ratina-logo-dark-2x-01.png" alt="Canvas Logo"></a>
-
-                </div><!-- #logo end -->
-
-
-                <nav id="primary-menu">
-
-                    <ul>
-                        <li><a href="index-2.html"><div class="primary-menu-ul-li-a-div"><i><img src="images/custom-images/icon/Green-Planet-Lands-Ltd.png" id="home-icon"></i>Home</div></a>
-
-                        </li>
-
-                        <li><a href="who-we-are.html"><div class="primary-menu-ul-li-a-div">Who Are We </div></a>
-                            <ul>
-                                <li><a href="who-we-are.html#company-profile"><div class="primary-menu-ul-li-a-div">Company Profile</div></a>
-
-                                </li>
-                                <li><a href="who-we-are.html#message"><div class="primary-menu-ul-li-a-div">MD & CEO's Message</div></a>
-
-                                </li>
-
-                                <li><a href="who-we-are.html#sister-concern"><div class="primary-menu-ul-li-a-div">Sister Concerns</div></a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="#"><div class="primary-menu-ul-li-a-div">Projects</div></a>
-                            <ul>
-                                <li><a href="palace-residence-1.html"><div class="primary-menu-ul-li-a-div">Palace Residence 1</div></a>
-
-                                </li>
-                                <li class="current"><a href="palace-residence-2.html"><div class="primary-menu-ul-li-a-div">Palace Residence 2</div></a>
-
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <li ><a href="gallery.html"><div class="primary-menu-ul-li-a-div">Gallery</div></a>
-
-                        </li>
-
-                        <!-- <li><a href="news.html"><div class="primary-menu-ul-li-a-div">News</div></a></li> -->
-
-                        <li><a href="contact.html"><div class="primary-menu-ul-li-a-div">Contact</div></a>
-
-                        </li>
-
-                    </ul>
-
-                </nav><!-- #primary-menu end -->
-
-            </div>
-
-        </div>
-
-
-    </header><!-- #header end -->
-
-
+    <link rel="stylesheet" href="css/custom-project.css" type="text/css" />
     <!--************** Corporate profile Welcome Slider ************************-->
-    <section id="slider" class="slider-element" style="background: url('images/custom-images/section/sister-concern/palace-residence-dhaka-2.jpg'); background-size: cover;" data-height-xl="600" data-height-lg="600" data-height-md="500" data-height-sm="500" data-height-xs="500">
+    <section id="slider" class="slider-element" style="background: url('images/custom-images/section/sister-concern/palace-residence-dhaka-5.jpg'); background-size: cover;" data-height-xl="600" data-height-lg="600" data-height-md="500" data-height-sm="500" data-height-xs="500">
         <div class="slider-parallax-inner">
             <div class="container  custom-slider-container clearfix">
                 <div class="heading-block palace-first-slider-custom-heading-block center">
 
-                    <h2 class="palace-first-slider-h2" >PALACE RESIDENCE 2</h2>
+                    <h2 class="palace-first-slider-h2" >RIVERGATE TOWN</h2>
 
                 </div>
             </div>
@@ -183,7 +63,7 @@
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
                                     </i>
-                                    Palace Residence is an exclusive residential zone with all regular facilities.
+                                    RIVERGATE TOWN is an exclusive residential zone with all regular facilities.
 
                                 </li>
 
@@ -191,7 +71,7 @@
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
                                     </i>
-                                    Palace Residence will avail all facilities of Govt. project 'New Town Project'.
+                                    RIVERGATE TOWN will avail all facilities of Govt. project 'New Town Project'.
                                 </li>
                                 <li>
                                     <i>
@@ -203,7 +83,7 @@
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
                                     </i> 
-                                    Palace Residence is completely out of flood-flow zone & flying zone.
+                                    RIVERGATE TOWN is completely out of flood-flow zone & flying zone.
                                 </li>
                                 <li>
                                     <i>
@@ -223,7 +103,6 @@
                                     </i> 
                                     About 30% of land is being used for public welfare zones and ecological balance with a lot natural greenery .
                                 </li>
-
                             </ul>
                         </div>
 
@@ -239,34 +118,36 @@
 
                             <ul class="iconlist" id="project-feature-icon-list-02">
 
-                                <li id="special-li-for-amenities-col">Features</li>
-
-                                <li>
-                                    Instant Registration.
+                                <li id="special-li-for-amenities-col">
+                                    Features
                                 </li>
 
                                 <li>
-                                    30 minute drive from Dhaka Airport.
+                                 Instant Registration.
+                             </li>
 
-                                </li>
+                             <li>
+                                 20 minute drive from Dhaka Airport.
 
-                                <li>
-                                    3600 Plots are available (3, 4 & 5 Katha area).
-                                </li>
-                                <li>
-                                    On Dhaka-Sylhet (N2) Highway.
-                                </li>
-                                <li>
-                                   Internal Roads of this project will be 25, 50 & 80 feet wide.
-                               </li>
-                           </ul>
+                             </li>
 
-                       </div>
+                             <li>
+                                 462 Plots are available (3, 4 & 5 Katha area).
+                             </li>
+                             <li>
+                                 Adjacent to Purbachal Sector 21.
+                             </li>
+                             <li>
+                                Internal Roads of this project will be 25, 30, 40 & 50 feet wide.
+                            </li>
+                        </ul>
 
-                   </div>
+                    </div>
+
+                </div>
 
 
-                   <div class="col-md-2  company-project-vertical-line-custom-col clearfix">
+                <div class="col-md-2  company-project-vertical-line-custom-col clearfix">
 
                     <div class="company-project-vertical-line-custom-div">
 
@@ -313,11 +194,11 @@
 
         <div class="heading-block palace-project-download-heading-block center">
 
-            <h2 class="palace-project-download-h2">DOWNLOAD BROCHURE</h2>
+            <h2 class="palace-project-download-h2">Download Brochure</h2>
 
             <span class="palace-company-profile-span">
 
-                <a href="Palace-Residence-Brochure.pdf"  download="Palace-Residence-Brochure.pdf">
+                <a _href="Palace-Residence-Brochure.pdf"  download="RIVERGATE-TOWN-Brochure.pdf">
 
                     <img src="images/custom-images/section/project/project-feature-section-pdf-logo.png">
 
@@ -337,143 +218,6 @@
 </section><!-- #content end -->
 
 <!-- Palace Feature-Amenities Section Ends-->
-
-
-<!-- Palace-Location map Starts ============================================= -->
-<section id="content" class="palace-project-location-map-section" style="background: url('images/custom-images/section/project/background-project-location-map.png'); background-size: cover;">
-
-
-    <img src="images/custom-images/section/project/project-location-map-top-left-img.png" id="top-left-img-location-map">
-
-
-    <div class="content-wrap" id="palace-project-location-map-content">
-
-        <div class="container clearfix" id="palace-project-location-map-container">
-
-
-
-            <div class="heading-block palace-project-location-map-heading-block center" id="palace-project-location-map-heading-block">
-
-                <h2 class="palace-project-location-map-h2">LOCATION MAP</h2>
-
-            </div>
-
-            <div class="map-holder">
-                <img src="images/custom-images/section/project/Main_Map.jpg" id="project-location-map">
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Palace-Location map Section Ends-->
-
-
-
-<!-- Palace-Layout Plan Starts ============================================= -->
-<section id="content" class="palace-project-layout-plan-section">
-
-    <img src="images/custom-images/section/project/project-layout-plan-top-left-img.png" id="top-left-img-layout-plan">
-
-    <div class="content-wrap" id="palace-project-layout-plan-content">
-
-        <div class="container-fluid clearfix">
-
-            <div class="col_two_fifth" id="cutom-layout-plan-table-col">
-
-                <img src="images/custom-images/section/project-02/table-project-02-layout-plan.png" id="img-layout-plan-02-project-02">
-
-            </div>
-
-            <div class="col_three_fifth col_last" id="cutom-layout-plan-map-col">
-                <img src="images/custom-images/section/project-02/project-02-map-layout-plan-02.jpg">
-            </div>
-
-
-
-        </div>
-    </div>
-</section>
-<!-- Palace-Layout Plan Section Ends-->
-
-
-
-
-
-
-<!-- Palace Booking Form Section -->
-<section id="content" class="palace-project-booking-form-section" style="background: url('images/custom-images/section/booking-form/background-palace-booking-form.jpg'); background-size: cover;">
-
-
-    <img src="images/custom-images/section/booking-form/palace-booking-form-top-left-img.png" id="top-left-img-booking-form">
-
-
-    <div class="content-wrap" id="palace-project-booking-form-content">
-
-        <div class="container clearfix" id="project-booking-form-container">
-
-
-            <div class="col_two_third">
-
-                <p id="palace-booking-form-custom-paragraph">To make your dream come true, please get in touch with us for more details. You can also download the Booking Form.
-                </p>
-
-                <form id="register-form" name="register-form" class="nobottommargin" action="#" method="post">
-
-                    <div class="col_full" id="palace-booking-form-holder-col">
-                        <!-- <label for="register-form-name">Name:</label> -->
-                        <input type="text" id="register-form-name" name="register-form-name" value="" class="form-control" placeholder="Name"/>
-
-
-
-                        <!-- <label for="register-form-email">Email Address:</label> -->
-                        <input type="text" id="register-form-email" name="register-form-email" value="" class="form-control" placeholder="Email"/>
-
-                        <!-- <label for="register-form-phone">Phone:</label> -->
-                        <input type="text" id="register-form-phone" name="register-form-phone" value="" class="form-control" placeholder="Phone #"/>
-
-                    </div>
-
-                    <div class="clear"></div>
-
-                    <div class="col_full">
-                        <button class="button" id="register-form-submit" name="register-form-submit" value="register">Send Message</button>
-                    </div>
-
-                </form>
-
-            </div>
-
-
-            <div class="col_one_third col_last">
-
-               <div class="heading-block palace-project-booking-form-download-heading-block center">
-
-                   <h2 class="palace-project-booking-form-download-h2">DOWNLOAD BOOKING FORM</h2>
-
-                   <span class="palace-company-profile-span">
-
-                       <a href="Booking-form.pdf"  download="Booking-form.pdf">
-
-                           <img src="images/custom-images/section/booking-form/palace-booking-form-download-icon.png" id="booking-down-arrow-img">
-
-                       </a>
-
-                   </span>
-
-               </div>
-
-           </div>
-
-
-
-
-       </div>
-
-   </div>
-
-</section>
-
-<!-- Palace Booking Form Section Ends-->
-
 
 
 <!-- Palace Terms And Condition Section -->
@@ -635,7 +379,6 @@
                                 </i> 
                                 If any cheque is dishonored due to insufficient fund, the client will have to pay Tk 500 (five hundred) as fine.
                             </li>
-
                         </ul>
                     </div>
 
@@ -650,72 +393,4 @@
 </section><!-- #content end -->
 
 <!-- Palace Terms And Condition Section Ends-->
-
-
-
-
-
-
-<!-- Palace #footer Starts -->
-<footer id="footer" class="dark">
-
-    <div id="copyrights">
-
-        <div class="container clearfix">
-
-            <div class="col_one_third palace-footer-logo-col" id="palace-footer-logo-col">
-                <img src="images/custom-images/section/footer/gpl_footerl_logo_new.png" id="palace-footer-logo" alt="" >
-            </div>
-
-            <div class="col_one_third palace-footer-power-by-col" >
-                <a href="http://psionic.io/" class="powerby" ><small id="palace-power-by" style="font-family: 'Poppins'; color: grey ">Powered By :</small>&nbsp;<small id="power-by-company-name-in-footer" style="font-family: 'Poppins'; ">Psionic Interactive Limited.</small></a>
-            </div>
-
-            <div class="col_one_third palace-footer-social-icons-col col_last tright">
-                <div class="fright clearfix" id="palace-footer-social-icons" style="">
-                    <a href="https://www.facebook.com/palaceresidence/" class="social-icon si-small si-rounded si-colored si-facebook" >
-                        <i class="icon-facebook" ></i>
-                        <i class="icon-facebook"></i>
-                    </a>
-
-                    <a href="https://www.youtube.com/channel/UCq34GHREXfiZSCwYICvNYLg" class="social-icon si-small si-rounded si-colored si-youtube">
-                        <i class="icon-youtube"></i>
-                        <i class="icon-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- #copyrights end -->
-
-</footer><!-- #footer end -->
-
-
-</div><!-- #wrapper end -->
-
-<!-- Go To Top ============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
-
-<!-- External JavaScripts
-    ============================================= -->
-    <script src="js/jquery.js"></script>
-    <script src="js/plugins.js"></script>
-
-<!-- Footer Scripts
-    ============================================= -->
-    <script src="js/functions.js"></script>
-
-
-<!-- Modernizr -->
-<script src="js/modernizr.js"></script> 
-
-
-<!-- Resource jQuery -->
-<script src="js/main.js"></script> 
-
-
-</body>
-
-<!-- Mirrored from palaceres.com/palace-residence-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Sep 2018 09:56:48 GMT -->
-</html>
+<?php require_once('footer.php') ?>
