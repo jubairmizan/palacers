@@ -15,6 +15,7 @@
 
 
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,7 +31,7 @@
     .first-footer .top-footer {
       background: #121B22;
       color: #fff;
-      padding: 6rem 0; 
+      padding: 6rem 0;
       position: relative;
     }
 
@@ -64,8 +65,8 @@
       color: #fff; }
 
     .first-footer .netsocials {
-      display: -webkit-box;
-      display: -ms-flexbox;
+      -webkit-display: -webkit-box;
+      -ms-display: -ms-flexbox;
       display: flex;
       list-style: none;
       margin: 0;
@@ -293,7 +294,7 @@
       .second-footer {
       padding: 1.5rem 0;
       background: #0098ef;
-      color: #fff; 
+      color: #fff;
       position: relative;
     }
 
@@ -316,7 +317,7 @@
 
     .second-footer p .fa-heart:before {
       color: #fff; }
-      
+
         #slider_bg_vdo {
         position: fixed;
         top: 50%;
@@ -333,77 +334,40 @@
         transition: 1s opacity;
         }
     </style>
-<body data-loader-html="<img src='vdo/preloader@2x.gif' alt='Loading Page' class='custom-loader'/>" class="stretched" style="background: #f8f8f8 url(images/pattern.jpg) repeat">
+<body data-loader-html="<img src='vdo/preloader@2x.gif' alt='Loading Page' class='custom-loader'/>" class="stretched">
 
 
 <div id="wrapper" class="clearfix">
+    <header class="s-header">
 
+        <div class="row">
 
-
-    <header id="header" class="transparent-header dark">
-
-        <div id="header-wrap" style="background-color: #0006;">
-
-            <div class="container clearfix">
-
-                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-                <div id="logo">
-
-                    <a href="index.php" class="standard-logo" data-dark-logo="images/custom-images/logo/header-logo-01.png"><img src="images/custom-images/logo/header-logo-01.png" alt="Canvas Logo"></a>
-
-                    <a href="index.php" class="retina-logo" data-dark-logo="images/custom-images/logo/ratina-logo-dark-2x-01.png"><img src="images/custom-images/logo/ratina-logo-dark-2x-01.png" alt="Canvas Logo"></a>
-
-                </div><!-- #logo end -->
-
-
-                <nav id="primary-menu">
-
-                    <ul>
-                        <li class="current"><a href="#"><div class="primary-menu-ul-li-a-div"><i><img src="images/custom-images/icon/Green-Planet-Lands-Ltd.png" id="home-icon"></i>Home</div></a>
-
-                        </li>
-
-                        <!-- <li><a href="#" _href="who-we-are.html"><div class="primary-menu-ul-li-a-div">Who Are We </div></a>
-                            <ul>
-                                <li><a href="#" _href="who-we-are.html#company-profile"><div class="primary-menu-ul-li-a-div">Company Profile</div></a>
-                        
-                                </li>
-                                <li><a  href="#" _href="who-we-are.html#message"><div class="primary-menu-ul-li-a-div">MD & CEO's Message</div></a>
-                        
-                                </li>
-                        
-                                <li><a  href="#" _href="who-we-are.html#sister-concern"><div class="primary-menu-ul-li-a-div">Sister Concerns</div></a></li>
-                            </ul>
-                        </li> -->
-
-                        <li><a href="#"><div class="primary-menu-ul-li-a-div">Projects</div></a>
-                            <ul>
-                                <li><a href="projects1.php"><div class="primary-menu-ul-li-a-div">RIVERGATE TOWN</div></a>
-                            
-                                </li>
-                                <li><a href="projects2.php"><div class="primary-menu-ul-li-a-div">পায়রা নীড় গার্ডেন</div></a>
-                            
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <!-- <li><a href="#" _href="gallery.html"><div class="primary-menu-ul-li-a-div">Gallery</div></a>
-                        
-                        </li> -->
-
-                        <li><a href="contact.php"><div class="primary-menu-ul-li-a-div">Contact</div></a>
-
-                        </li>
-
-                    </ul>
-
-                </nav><!-- #primary-menu end -->
-
+            <div class="header-logo">
+                <a href="index.php" class="standard-logo" data-dark-logo="images/custom-images/logo/header-logo-01.png"><img src="images/custom-images/logo/header-logo-01.png" alt="Canvas Logo"></a>
             </div>
 
-        </div>
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="index.php" title="home">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a class="smoothscroll" href="#"><div>Projects</div></a>
+                          <ul class="dropdown-content">
+                              <li><a href="projects1.php"><div class="">RIVERGATE TOWN</div></a>
+                              </li>
+                              <li><a href="projects2.php"><div class="">পায়রা নীড় গার্ডেন</div></a>
 
+                              </li>
+                          </ul>
+                    </li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact Us</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
 
-    </header><!-- #header end -->
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->

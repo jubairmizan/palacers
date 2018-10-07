@@ -8,7 +8,7 @@
             <div class="container  custom-slider-container clearfix">
                 <div class="heading-block palace-first-slider-custom-heading-block center">
 
-                    <h2 class="palace-first-slider-h2" >RIVERGATE TOWN</h2>
+                    <h2 class="palace-first-slider-h2" >পায়রা নীড় গার্ডেন</h2>
 
                 </div>
             </div>
@@ -19,54 +19,54 @@
 
     <!-- Palace Feature-Amenities Section -->
 
-    <section id="content" class="palace-project-section" style="background: url('images/custom-images/section/project/project-feature-background.jpg'); background-size: cover;">
-
-
+    <!-- <section id="content" class="palace-project-section" style="background: url('images/custom-images/section/project/project-feature-background.jpg'); background-size: cover;">
+    
+    
         <img src="images/custom-images/section/project/project-feature-top-left-img.png" id="top-left-img">
-
-
+    
+    
         <div class="content-wrap" id="palace-project-content">
-
+    
             <div class="container clearfix">
-
-
-
+    
+    
+    
                 <div class="heading-block palace-project-heading-block center" id="palace-project-heading-block">
-
+    
                     <h2 class="palace-project-h2">Features & Amenities</h2>
-
+    
                 </div>
                 <div class="row">
                     <div class="postcontent clearfix" id="project-feature-custom-postcontent">
-
+    
                         <div class="col_full">
-
+    
                             <ul class="iconlist" id="project-feature-icon-list">
-
+    
                                 <li>
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
                                     </i>
                                     Located adjacent to RAJUK’s “Purbachal New Town” which is one of the biggest modern preplanned towns in the South Asia that will serve as the administrative capital of Bangladesh. 
-
+    
                                 </li>
-
+    
                                 <li>
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
                                     </i>
                                     The Govt. has plans to shift the Prime Minister’s office, Secretariat and many others govt. offices to Purbachal New Town. It will also have a Diplomatic Zone, Word Bank & Asian Development Bank Offices and the 2nd campus of the Dhaka University. There will also be planned recreational facilities like Water World, 3D Theaters, Planetarium, etc.
-
+    
                                 </li>
-
+    
                                 <li>
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
                                     </i>
                                     RIVERGATE TOWN is an exclusive residential zone with all regular facilities.
-
+    
                                 </li>
-
+    
                                 <li>
                                     <i>
                                         <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
@@ -105,32 +105,32 @@
                                 </li>
                             </ul>
                         </div>
-
+    
                     </div>
                 </div>
-
+    
                 <div class="row">
-
+    
                     <div class="col-md-5 clearfix">
-
+    
                         <div class="postcontent clearfix" id="project-feature-custom-postcontent-02">
-
-
+    
+    
                             <ul class="iconlist" id="project-feature-icon-list-02">
-
+    
                                 <li id="special-li-for-amenities-col">
                                     Features
                                 </li>
-
+    
                                 <li>
                                  Instant Registration.
                              </li>
-
+    
                              <li>
                                  20 minute drive from Dhaka Airport.
-
+    
                              </li>
-
+    
                              <li>
                                  462 Plots are available (3, 4 & 5 Katha area).
                              </li>
@@ -141,37 +141,37 @@
                                 Internal Roads of this project will be 25, 30, 40 & 50 feet wide.
                             </li>
                         </ul>
-
+    
                     </div>
-
+    
                 </div>
-
-
+    
+    
                 <div class="col-md-2  company-project-vertical-line-custom-col clearfix">
-
+    
                     <div class="company-project-vertical-line-custom-div">
-
+    
                     </div>
-
+    
                 </div>
-
-
+    
+    
                 <div class="col-md-5 col_last clearfix">
-
+    
                     <div class="postcontent clearfix" id="project-feature-custom-postcontent-02">
-
-
+    
+    
                         <ul class="iconlist" id="project-feature-icon-list-02">
                             <li id="special-li-for-amenities-col">Amenities</li>
-
+    
                             <li>
                                 Mosque, Hospitals, Clinics.
                             </li>
-
+    
                             <li>
                                 Bangla and English Medium Schools, Colleges.
                             </li>
-
+    
                             <li>
                              Modern Shopping Malls, Banks, Community Centers.
                          </li>
@@ -182,47 +182,48 @@
                             Common Parking, Restaurants, Hotels, Trade Centers, etc.
                         </li>
                     </ul>
-
+    
                 </div>
-
+    
             </div>
-
-
+    
+    
         </div>
-
-
-
+    
+    
+    
         <div class="heading-block palace-project-download-heading-block center">
-
+    
             <h2 class="palace-project-download-h2">Download Brochure</h2>
-
+    
             <span class="palace-company-profile-span">
-
+    
                 <a _href="Palace-Residence-Brochure.pdf"  download="RIVERGATE-TOWN-Brochure.pdf">
-
+    
                     <img src="images/custom-images/section/project/project-feature-section-pdf-logo.png">
-
+    
                 </a>
-
+    
             </span>
-
+    
         </div>
-
-
-
-
+    
+    
+    
+    
     </div>
-
-</div>
-
-</section><!-- #content end -->
+    
+    </div>
+    
+    </section> -->
+<!-- #content end -->
 
 <!-- Palace Feature-Amenities Section Ends-->
 
 
 <!-- Palace Terms And Condition Section -->
 
-<section id="content" class="palace-project-term-section" style="background: url('images/custom-images/section/term-and-condition/background-palace-project-term-and-condition.jpg'); background-size: cover;">
+<!-- <section id="content" class="palace-project-term-section" style="background: url('images/custom-images/section/term-and-condition/background-palace-project-term-and-condition.jpg'); background-size: cover;">
 
 
     <img src="images/custom-images/section/term-and-condition/palace-project-terms-and-condition-to-left-img.png" id="top-left-img-term">
@@ -390,7 +391,8 @@
 
     </div>
 
-</section><!-- #content end -->
+</section> -->
+<!-- #content end -->
 
 <!-- Palace Terms And Condition Section Ends-->
 <?php require_once('footer.php') ?>

@@ -1,8 +1,8 @@
 
-<?php 
+<?php
 require_once('header.php');
 ?>
-  
+
 
     <style type="text/css">
         /*------ 4. SECTION WELCOME ------*/
@@ -176,8 +176,8 @@ require_once('header.php');
     </style>
 </head>
     <section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix"  style="background: url('images/custom-images/section/slider/Green-Planet-Lands-Ltd.jpg'); background-size: cover;"  data-height-md="700" data-height-sm="500" data-height-xs="500">
-        
-        
+
+
 
         <div class="slider-parallax-inner">
             <video id="slider_bg_vdo" poster="images/bg.webp" id="bgvid" playsinline autoplay muted loop>
@@ -191,13 +191,19 @@ require_once('header.php');
 
                             <div class="slider-caption slider-caption-center" id="custom-slider-caption-for-welcome-slider">
 
-                                <div class="heading-block center" id="welcome-slider-heading-block">
-
-                                    <h2 id="welcome-slider-h2-01"><span style="color: #fff;">YOU </span> DESERVE <span style="color: #fff;">A BETTER WAY</span> TO INVEST</h2>
-
-                                    <h2 class="welcome-slider-h2-02">Secure your future by investing today with the right people</h2>
-
-
+                                <div class="heading-block center text-right" id="welcome-slider-heading-block">
+                                    
+                                    <div class="row">
+                                      <div class="col-md-10 col-sm-10 col-xs-6">
+                                        <h2 id="welcome-slider-h2-01" style="color: #01BCEE"><span style="color: #fff;">Welcome To </span> Banalata Landmark</h2>
+                                      </div>
+                                      <div class="col-md-2 col-sm-6 col-xs-12">
+                                        <a href="projects1.php"><img src="img/RGTLogo.jpg" class="img-fluid"></a>
+                                        <a href="projects2.php"><img style="margin-top: 15px;" src="images/custom-images/logo/header-logo-01.png" class="img-fluid"></a>
+                                      </div>
+                                    </div>                                    
+                                   
+                                   <!-- <h2 class="welcome-slider-h2-02">Secure your future by investing today with the right people</h2> -->
                                     <!-- <a href="http://www.blueplanetgroup.com/" class="button button-rounded button-reveal button-large button-border tright" id="meet-our-button"><i class="icon-play"></i><span>VISIT BLUE PLANET GROUP</span></a> -->
 
                                 </div>
@@ -223,15 +229,16 @@ require_once('header.php');
 
 
     <!--************** Our Projects ************************-->
-    <section id="content"  style="background:#f8f8f8 url(images/pattern.jpg) repeat;position: relative;"> 
+    <section id="content"  style="background:#f8f8f8 url(images/pattern.jpg) repeat;position: relative;">
 
-        <div class="content-wrap our-projects-content-wrap">
+        <div class="content-wrap our-projects-content-wrap" _style="padding-top: 0px;padding-bottom: 60px;">
 
             <div class="container our-project-custom-container clearfix" id="">
 
 
                 <div class="row our-project-custom-row">
-
+					<?php 
+					/*
                     <div class="col-md-4 our-project-custom-col-md-4">
 
                         <div id="portfolio" class="portfolio grid-container portfolio-2 clearfix ">
@@ -242,7 +249,7 @@ require_once('header.php');
 
                                 <div class="portfolio-image">
 
-                                   <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/KJ5c5D13e0A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                                  <!--   <iframe width="560" height="315" src="https://www.youtube.com/embed/KJ5c5D13e0A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
 
                                     <a href="https://www.youtube.com/watch?v=KJ5c5D13e0A" class="center-icon" data-lightbox="iframe"  ><i id="custom-portfolio-play-icon"><img src="images/custom-images/icon/video-play-icon.png" alt="Play" id="custom-our-project-play-button"></i></a>  <!-- class="icon-line-play"  -->
@@ -269,12 +276,14 @@ require_once('header.php');
                         <hr class="hr-to-vertical" data-animate="fadeInDown">
 
                     </div>
+                    */ 
+                   ?>
 
-                    <div class="col-md-7 our-project-holding-column">
+                    <div class="col-md-12 our-project-holding-column">
 
-                        <h2 class="our-projects-h2">OUR PROJECTS</h2>
+                        <h2 class="our-projects-h2 text-center">OUR PROJECTS</h2>
 
-                        <p class="our-projects-p">Banala LandMark was started with a dream to give you a better way to invest in real estate. We believe in forging long term relationships based on integrity and commitment. With our current and future projects, we dream of revolutionizing the real estate sector and becoming your trusted partner for decades to come. 
+                        <p class="our-projects-p">Banalata LandMark is very professionally organized. Much time is devoted to research and proper planning. As a matter of fact, 85% of the project sale is done during construction stage only. We have associated with top-ranking consulting Architects, Landscaping  Consultants,  Soil Investigators, Structural Engineers, Air conditioning Experts, Mechanical Engineers, Plumbing Experts, Electrical  Fire, and Safety companies. Banalata LandMark multidisciplinary specialist teams work, together to provide a seamless approach to the provision of its real estate investment advisory, project management, property management, and related real estate advisory services.
                         </p>
 
 
@@ -292,8 +301,8 @@ require_once('header.php');
 
                                     <div class="modal-body">
 
-                                        <img src="images/custom-images/section/project/Main_Map.jpg" id="project-location-map">
-
+                                        <!--<img src="images/custom-images/section/project/Main_Map.jpg" id="project-location-map">-->
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.7571457955437!2d90.47365131426814!3d23.862755984534022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDUxJzQ1LjkiTiA5MMKwMjgnMzMuMCJF!5e0!3m2!1sen!2sbd!4v1538904725996" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                                     </div>
 
@@ -318,35 +327,36 @@ require_once('header.php');
     <section id="content" style="padding-left: 0px; padding-right: 0px;padding-top: 0px; padding-bottom: 0px;">
         <div class="grid" id="palace-residence-grid">
             <figure class="effect-lily palace-residence-effect-lily">
-                <img src="images/custom-images/section/Palace/palace-2.png" id="palace-residence-background-img" alt="img12"/>
+                <!-- <img src="images/custom-images/section/Palace/palace-2.png" id="palace-residence-background-img" alt="img12"/> -->
+                <img src="images/custom-images/section/sister-concern/palace-residence-dhaka-5.jpg" id="palace-residence-background-img" alt="img12"/>
                 <figcaption>
                     <div id="palace-residence-lily-fig-caption-div">
-                        <h2><img src="images/custom-images/logo/Palace_Residence1.png" alt="Palace_Residence1" id="palace-residence-logo-01"  /></h2>
-                        <p>Only a 20-minute drive from Airport & adjacent to Purbachal Sector-21.</p>
-                        <p><a href="palace-residence-1.html" class="button button-rounded button-reveal button-large button-border tright" id="palace-residence-button"><i class="icon-play"></i><span>VIEW PROJECT</span></a>
+                        <h2><img src="img/RGTLogo.jpg" alt="Palace_Residence1" id="palace-residence-logo-01"  /></h2>
+                        <p>Only a 5 KM from Airport & adjacent to Purbachal Sector-26.</p>
+                        <p><a href="projects1.php" class="button button-rounded button-reveal button-large button-border tright" id="palace-residence-button"><i class="icon-play"></i><span>VIEW PROJECT</span></a>
                         </p>
                     </div>
 
-                </figcaption>           
+                </figcaption>
             </figure>
             <figure class="effect-lily palace-residence-effect-lily">
                 <img src="images/custom-images/section/Palace/palace-1.jpg" id="palace-residence-background-img" alt="img1"/>
                 <figcaption>
                     <div id="palace-residence-lily-fig-caption-div">
                         <h2><img src="images/custom-images/logo/Palace_Residence2.png" alt="Palace_Residence1" id="palace-residence-logo-01"  /></h2>
-                        <p>Prime location on the Dhaka-Sylhet (N2) highway and only a 30-minute drive from the Airport.</p>
-                        <p><a href="palace-residence-2.html" class="button button-rounded button-reveal button-large button-border tright" id="palace-residence-button"><i class="icon-play"></i><span>VIEW PROJECT</span></a>
+                        <p>Only a 5 KM from Airport & adjacent to Purbachal Sector-26</p>
+                        <p><a href="projects2.php" class="button button-rounded button-reveal button-large button-border tright" id="palace-residence-button"><i class="icon-play"></i><span>VIEW PROJECT</span></a>
                         </p>
                     </div>
 
-                </figcaption>           
+                </figcaption>
             </figure>
         </div>
     </section>
 
 
     <!-- STAR SECTION WELCOME -->
-    <section class="welcome" style="background-color:#FFFFFF;position: relative;">
+    <section class="welcome" style="background:#f8f8f8 url(img/index.png) repeat;position: relative;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12">
@@ -457,25 +467,25 @@ require_once('header.php');
 
     <!-- Palace MEET OUR TEAM Section -->
     <!-- <section id="content" style="padding: 0px;">
-    
+
         <div class="content-wrap nopadding">
-    
+
             <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/custom-images/section/meet-our-team/meet-our-team-new.jpg');" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
                 <div class="container center clearfix">
-    
-    
+
+
                     <div class="heading-block center" id="meet-our-team-heading-block">
-    
+
                         <h2 id="meet-our-team-h2-01">THE BEST INVESTMENTS</h2>
                         <h2 class="meet-our-team-h2-02">START WITH THE RIGHT PEOPLE</h2>
-    
+
                         <a href="http://www.blueplanetgroup.com/" class="button button-rounded button-reveal button-large button-border tright" id="meet-our-button"><i class="icon-play"></i><span>VISIT BLUE PLANET GROUP</span></a>
-    
+
                     </div>
-    
+
                 </div>
             </div>
-    
+
         </div>
     </section> -->
 
@@ -493,14 +503,14 @@ require_once('header.php');
 
                     <h2 class="palace-why-us-h2">WHY US</h2>
 
-                    <span class="palace-why-us-span">
-                        Our parent company,Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </span>
+                    <p style="text-align: justify;font-weight: 300;font-family: 'Montserrat';font-size: 16px;color: #111111;margin-bottom: 30px;line-height: 32px;" _class="palace-why-us-span">
+                        
+
+                        Banalata Landmark is very professionally organized. Much time is devoted to research and proper planning. We have associated with top-ranking consulting Architects, Landscaping  Consultants,  Soil Investigators, Structural Engineers, Air conditioning Experts, Mechanical Engineers, Plumbing Experts, Electrical  Fire, and Safety companies. Bacon’s multidisciplinary specialist teams work, together to provide a seamless approach to the provision of its real estate investment advisory, project management, property management, and related real estate advisory services.
+
+                        Banalata provided all sort of construction services for individual and company.   Banalata gives facility to our customers to design and construction service to construct his/her own property. An efficient team of engineers &  Architects of  Banalata Landmark Developments is the driving force in the mega success of a series of multi – storied residential apartments, commercial complex, shopping malls, and office towers etc…
+
+                    </p>
 
                 </div>
 
@@ -519,11 +529,11 @@ require_once('header.php');
                     <div id="palace-about-us-lily-fig-caption-div">
                         <h2 >Proximity to Dhaka</h2>
                         <p>Just a 30 min drive from Dhaka in prime locations</p>
-                        <p><a href="#" class="button button-rounded button-reveal button-large button-border tright" id="palace-about-us-button" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="icon-play"></i><span>VIEW MAP</span></a>
+                        <p><a href="#" class="button button-rounded button-reveal button-large button-border tright" id="palace-about-us-button" data-toggle="modal" _data-target=".bs-example-modal-lg"><i class="icon-play"></i><span>VIEW MAP</span></a>
                         </p>
                     </div>
 
-                </figcaption>           
+                </figcaption>
             </figure>
             <figure class="effect-lily palace-about-us-effect-lily">
                 <img src="images/custom-images/section/Palace/palace-2.png" id="palace-about-us-background-img" alt="img1"/>
@@ -531,26 +541,26 @@ require_once('header.php');
                     <div id="palace-about-us-lily-fig-caption-div">
                         <h2 >Purchased Land</h2>
                         <p>Existing land that we own that you visit and see for yourself</p>
-                        <p><a href="gallery.html" class="button button-rounded button-reveal button-large button-border tright" id="palace-about-us-button"><i class="icon-play"></i><span>VIEW GALLERY</span></a>
+                        <p><a _href="gallery.html" class="button button-rounded button-reveal button-large button-border tright" id="palace-about-us-button"><i class="icon-play"></i><span>VIEW GALLERY</span></a>
                         </p>
                     </div>
 
-                </figcaption>           
+                </figcaption>
             </figure>
-            <figure class="effect-lily palace-about-us-effect-lily">
+            <!-- <figure class="effect-lily palace-about-us-effect-lily">
                 <img src="images/custom-images/section/Palace/palace-1.jpg" id="palace-about-us-background-img" alt="img12"/>
-
+            
                 <figcaption>
                     <div id="palace-about-us-lily-fig-caption-div">
                         <h2 >Instant Registration</h2>
                         <p>All plots come with instant registration upon booking</p>
                         <p>
-                            <a href="#" class="button button-rounded button-reveal button-large button-border tright"  data-toggle="modal" data-target=".bs-example-modal-lg-01" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
+                            <a href="#" class="button button-rounded button-reveal button-large button-border tright"  data-toggle="modal" _data-target=".bs-example-modal-lg-01" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
                         </p>
                     </div>
-
-                </figcaption>           
-            </figure>
+            
+                </figcaption>
+            </figure> 
             <figure class="effect-lily palace-about-us-effect-lily">
                 <img src="images/custom-images/section/Palace/palace-2.png" id="palace-about-us-background-img" alt="img1"/>
                 <figcaption>
@@ -558,12 +568,12 @@ require_once('header.php');
                         <h2 >Life Insurance</h2>
                         <p>Your investment is safe in the event of any unfortunate incident</p>
                         <p>
-                            <a href="#"  class="button button-rounded button-reveal button-large button-border tright" data-toggle="modal" data-target=".bs-example-modal-lg-02" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
+                            <a href="#"  class="button button-rounded button-reveal button-large button-border tright" data-toggle="modal" _data-target=".bs-example-modal-lg-02" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
                         </p>
                     </div>
 
-                </figcaption>          
-            </figure>
+                </figcaption>
+            </figure>-->
             <figure class="effect-lily palace-about-us-effect-lily">
                 <img src="images/custom-images/section/Palace/palace-1.jpg" id="palace-about-us-background-img" alt="img12"/>
                 <figcaption>
@@ -571,11 +581,11 @@ require_once('header.php');
                         <h2 >Apartments</h2>
                         <p>Option to buy land and have us build your apartment with EMI option</p>
                         <p>
-                            <a href="#" class="button button-rounded button-reveal button-large button-border tright" data-toggle="modal" data-target=".bs-example-modal-lg-03" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
+                            <a href="#" class="button button-rounded button-reveal button-large button-border tright" data-toggle="modal" _data-target=".bs-example-modal-lg-03" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
                         </p>
                     </div>
 
-                </figcaption>           
+                </figcaption>
             </figure>
 
             <figure class="effect-lily palace-about-us-effect-lily">
@@ -586,12 +596,12 @@ require_once('header.php');
                         <p>We guarantee to handover all projects on time</p>
 
                         <p>
-                            <a href="#" class="button button-rounded button-reveal button-large button-border tright" data-toggle="modal" data-target=".bs-example-modal-lg-04" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
+                            <a href="#" class="button button-rounded button-reveal button-large button-border tright" data-toggle="modal" _data-target=".bs-example-modal-lg-04" id="palace-about-us-button"><i class="icon-play"></i><span>LEARN MORE</span></a>
                         </p>
 
                     </div>
 
-                </figcaption>           
+                </figcaption>
             </figure>
         </div>
     </section>
@@ -833,7 +843,7 @@ require_once('header.php');
                                 <i class="icon-facebook" ></i>
                                 <i class="icon-facebook"></i>
                             </a>
-        
+
                             <a href="#" _href="https://www.youtube.com/channel/UCq34GHREXfiZSCwYICvNYLg" class="social-icon si-small si-rounded si-colored si-youtube">
                                 <i class="icon-youtube"></i>
                                 <i class="icon-youtube"></i>
@@ -845,6 +855,6 @@ require_once('header.php');
         </div>
     </div>
 </footer>
-<?php 
+<?php
 require_once('footer.php');
 ?>
