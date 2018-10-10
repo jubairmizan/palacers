@@ -3,6 +3,7 @@
 require_once('header.php');
 ?>
 
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
 
     <style type="text/css">
         /*------ 4. SECTION WELCOME ------*/
@@ -198,7 +199,7 @@ require_once('header.php');
                                         <h2 id="welcome-slider-h2-01" style="color: #01BCEE"><span style="color: #fff;">Welcome To </span> Banalata Landmark</h2>
                                       </div>
                                       <div class="col-md-2 col-sm-6 col-xs-12">
-                                        <a href="projects1.php"><img src="img/RGTLogo.jpg" class="img-fluid"></a>
+                                        <a href="projects1.php"><img style="max-width:170px; margin:0 auto" src="img/RGTLogo.jpg" class="img-responsive"></a>
                                         <a href="projects2.php"><img style="margin-top: 15px;" src="images/custom-images/logo/header-logo-01.png" class="img-fluid"></a>
                                       </div>
                                     </div>                                    
@@ -223,67 +224,21 @@ require_once('header.php');
 
     </section>
 
+	<!--************** Our Projects ************************-->
+    <section id="content"> 
 
-
-
-
-
-    <!--************** Our Projects ************************-->
-    <section id="content"  style="background:#f8f8f8 url(images/pattern.jpg) repeat;position: relative;">
-
-        <div class="content-wrap our-projects-content-wrap" _style="padding-top: 0px;padding-bottom: 60px;">
+        <div class="content-wrap our-projects-content-wrap">
 
             <div class="container our-project-custom-container clearfix" id="">
 
 
                 <div class="row our-project-custom-row">
-					<?php 
-					/*
-                    <div class="col-md-4 our-project-custom-col-md-4">
-
-                        <div id="portfolio" class="portfolio grid-container portfolio-2 clearfix ">
-
-                            <article class="portfolio-item pf-graphics pf-uielements" id="our-project-portfolio-item-article-tag">
-
-
-
-                                <div class="portfolio-image">
-
-                                  <!--   <iframe width="560" height="315" src="https://www.youtube.com/embed/KJ5c5D13e0A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-
-
-                                    <a href="https://www.youtube.com/watch?v=KJ5c5D13e0A" class="center-icon" data-lightbox="iframe"  ><i id="custom-portfolio-play-icon"><img src="images/custom-images/icon/video-play-icon.png" alt="Play" id="custom-our-project-play-button"></i></a>  <!-- class="icon-line-play"  -->
-
-                                    <video autoplay playsinline loop muted poster="images/custom-images/section/poster/poster-palace-residence.jpg" id="video-try"><source src="images/custom-images/test-videos/palace-residence-vdo-circle.mp4" type="video/mp4">
-                                    </video>
-
-                                    <div class="portfolio-overlay">
-                                        <a href="https://www.youtube.com/watch?v=KJ5c5D13e0A" class="center-icon" data-lightbox="iframe" ><i class="icon-line-play"></i></a>
-
-                                    </div>
-
-                                </div>
-
-
-
-                            </article>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-1 our-project-custom-col-md-1">
-
-                        <hr class="hr-to-vertical" data-animate="fadeInDown">
-
-                    </div>
-                    */ 
-                   ?>
 
                     <div class="col-md-12 our-project-holding-column">
 
-                        <h2 class="our-projects-h2 text-center">OUR PROJECTS</h2>
+                        <h2 class="our-projects-h2">OUR PROJECTS</h2>
 
-                        <p class="our-projects-p">Banalata LandMark is very professionally organized. Much time is devoted to research and proper planning. As a matter of fact, 85% of the project sale is done during construction stage only. We have associated with top-ranking consulting Architects, Landscaping  Consultants,  Soil Investigators, Structural Engineers, Air conditioning Experts, Mechanical Engineers, Plumbing Experts, Electrical  Fire, and Safety companies. Banalata LandMark multidisciplinary specialist teams work, together to provide a seamless approach to the provision of its real estate investment advisory, project management, property management, and related real estate advisory services.
+                        <p class="our-projects-p">Banalata LandMark is very professionally organized. Much time is devoted to research and proper planning. We have associated with top-ranking consulting Architects, Landscaping  Consultants,  Soil Investigators, Structural Engineers, Air conditioning Experts, Mechanical Engineers, Plumbing Experts, Electrical  Fire, and Safety companies. 
                         </p>
 
 
@@ -301,8 +256,8 @@ require_once('header.php');
 
                                     <div class="modal-body">
 
-                                        <!--<img src="images/custom-images/section/project/Main_Map.jpg" id="project-location-map">-->
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.7571457955437!2d90.47365131426814!3d23.862755984534022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDUxJzQ1LjkiTiA5MMKwMjgnMzMuMCJF!5e0!3m2!1sen!2sbd!4v1538904725996" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        <img src="img/Rivergate_map.jpg" id="project-location-map">
+
 
                                     </div>
 
@@ -319,6 +274,86 @@ require_once('header.php');
         </div>
 
     </section><!-- Our Projects #content end -->
+
+    <!-- <section id="content"  style="background:#f8f8f8 url(images/pattern.jpg) repeat;position: relative;">
+    
+        <div class="content-wrap our-projects-content-wrap">
+    
+            <div class="container our-project-custom-container clearfix" id="">
+    
+    
+                <div class="row our-project-custom-row">
+    
+                    <div class="col-md-4 our-project-custom-col-md-4">
+    
+                        <div id="portfolio" class="portfolio grid-container portfolio-2 clearfix ">
+    
+                            <article class="portfolio-item pf-graphics pf-uielements" id="our-project-portfolio-item-article-tag">
+    
+    
+    
+                                <div class="portfolio-image">
+                                    
+                                    <img src="img/RGTLogo.jpg" class="img-responsive img-circle" alt="Play" _id="custom-our-project-play-button">
+    
+                                </div>
+    
+    
+    
+                            </article>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-1 our-project-custom-col-md-1">
+    
+                        <hr class="hr-to-vertical" data-animate="fadeInDown">
+    
+                    </div>
+    
+                    <div class="col-md-7 our-project-holding-column">
+    
+                        <h2 class="our-projects-h2">OUR PROJECTS</h2>
+    
+                        <p class="our-projects-p">Banalata LandMark is very professionally organized. Much time is devoted to research and proper planning. As a matter of fact, 85% of the project sale is done during construction stage only. We have associated with top-ranking consulting Architects, Landscaping  Consultants,  Soil Investigators, Structural Engineers, Air conditioning Experts, Mechanical Engineers, Plumbing Experts, Electrical  Fire, and Safety companies. Banalata LandMark multidisciplinary specialist teams work, together to provide a seamless approach to the provision of its real estate investment advisory, project management, property management, and related real estate advisory services.
+                        </p>
+    
+    
+                        <a href="#" class="button button-rounded button-reveal button-large button-border tright" id="our-project-button" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="icon-play"></i><span>PROJECTS LOCATION MAP</span></a>
+    
+                    </div>
+    
+    
+    
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"> 
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-body">
+                                <div class="modal-content">
+    
+    
+                                    <div class="modal-body">
+    
+                                        <img src="img/Rivergate_map.jpg" id="project-location-map">
+    
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+        </div>
+    
+    </section> -->
+
+
+    
 
 
 

@@ -608,10 +608,15 @@ a {
 a:hover{
 	color: #216832 ;
 }
-
+ul{
+	margin-bottom: 30px;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 300;
+	text-align: justify;
+}
 p,
 pre,
-ul,
 ol,
 dl,
 dd,

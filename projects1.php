@@ -240,7 +240,8 @@
             </div>
 
             <div class="map-holder">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.7571457955437!2d90.47365131426814!3d23.862755984534022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDUxJzQ1LjkiTiA5MMKwMjgnMzMuMCJF!5e0!3m2!1sen!2sbd!4v1538904725996" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <img src="img/Rivergate_map.jpg" id="project-location-map">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.7571457955437!2d90.47365131426814!3d23.862755984534022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDUxJzQ1LjkiTiA5MMKwMjgnMzMuMCJF!5e0!3m2!1sen!2sbd!4v1538904725996" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> -->
                 <!--<img src="img/rivergateMap.PNG" id="project-location-map" style="width: 100%">-->
             </div>
         </div>

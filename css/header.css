@@ -202,8 +202,8 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
+  /* text-transform: uppercase;
+  letter-spacing: .1rem; */
   position: absolute;
   top: 0;
   right: 20px;

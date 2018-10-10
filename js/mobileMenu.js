@@ -18,7 +18,7 @@ $WIN.on('resize', function() {
     else nav.removeClass('mobile');
 });
 
-nav.find('a').on("click", function() {
+nav.find('.header-menu-toggle').on("click", function() {
 
     if (nav.hasClass('mobile')) {
         toggleButton.toggleClass('is-clicked');

@@ -1103,7 +1103,7 @@ figure.palace-about-us-effect-lily p {
 .button.button-rounded.button-reveal.button-large.button-border.tright{
 	border-color: transparent;
 	color: white;
-	background-color: #0095E7;
+	background-color: #206931;
 	border-radius: 45px;
 	-webkit-border-radius: 45px;
 }
@@ -1239,7 +1239,6 @@ figure.palace-about-us-effect-lily p {
 		min-width: 320px;
 		max-width: 640px;
 		max-height: 500px;
-		/*width: 33.333333%;*/
 		width: 25%;
 	}
 
@@ -1371,7 +1370,6 @@ figure.palace-about-us-effect-lily p {
 		min-width: 320px;
 		max-width: 600px;
 		max-height: 400px;
-		/*width: 33.333333%;*/
 		width: 25%;
 	}
 
@@ -1610,7 +1608,6 @@ figure.palace-about-us-effect-lily p {
 		min-width: 320px;
 		max-width: 400px;
 		max-height: 400px;
-		/*width: 33.333333%;*/
 		width: 25%;
 	}
 
@@ -2909,7 +2906,7 @@ figure.palace-about-us-effect-lily p {
 
 	#custom-slider-caption-for-welcome-slider{
 
-		margin-top: 95%;
+		margin-top: 30%;
 		max-width: 300px;
 		height: 300px;
 
